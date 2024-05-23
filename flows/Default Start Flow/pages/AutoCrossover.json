@@ -1,0 +1,24 @@
+{
+  "name": "10fe278b-a649-4b3d-a85d-de868c23f6e2",
+  "displayName": "AutoCrossover",
+  "form": {
+  
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/548773629725/locations/global/collections/default_collection/dataStores/autocrossover-ds_1715919677040",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

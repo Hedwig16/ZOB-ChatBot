@@ -1,0 +1,105 @@
+{
+  "name": "ecf119df-6122-469b-8190-d19c5f5b342d",
+  "tags": [ "#Change_date_postedtransaction" ],
+  "displayName": "Change a deposit date on a posted transaction",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I Change a Deposit Date on a Posted Transaction?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change a deposit date on a posted transaction, click the deposit date field, select a date, and then click Save. You can also view your deposit by clicking Payments and then the date you made the deposit." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=tl38fcc0tf" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I Change a Deposit Date on a Posted Transaction?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change a deposit date on a posted transaction, you can click the deposit date field, select a date, and then click Save. You can also view your deposit by clicking Payments and then the date you made the deposit." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=tl38fcc0tf" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Guide me through Changing a Deposit Date on a Posted Transaction"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change a deposit date on a posted transaction, you can click the deposit date field, select a date, and then click Save. You can also view your deposit by clicking Payments and then the date you made the deposit." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=tl38fcc0tf" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712551177,
+    "nanos": 133509000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

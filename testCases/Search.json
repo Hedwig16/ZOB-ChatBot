@@ -1,0 +1,270 @@
+{
+  "name": "0e4cec12-3740-4e94-a009-63373a743066",
+  "tags": [ "#Search" ],
+  "displayName": "Search",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the benefits of using the search feature?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The search feature can help you quickly and easily find the information you need. For example, you can use it to find all patients whose last names begin with the letter \"L\", or to find all claims from a current payer with an exact claim balance. You can also use it to find specific claims based on tags, or to find all records in the system." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=tsp5d1x85f" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Describe the difference between a basic search and an advanced search."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "A basic search allows you to search for information using a single keyword or phrase. For example, you could search for all patients whose last names begin with the letter \"L\".\n\nAn advanced search allows you to search for information using multiple keywords or phrases, and to specify the criteria that you want to use to narrow your search results. For example, you could search for all claims from a current payer with an exact claim balance.\n\nYou can also use the advanced search to find specific claims based on tags, or to find all records in the system." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does advanced search functionality enhance the search experience?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The advanced search functionality enhances the search experience by allowing you to search for information using multiple keywords or phrases, and to specify the criteria that you want to use to narrow your search results. For example, you could search for all claims from a current payer with an exact claim balance.\n\nYou can also use the advanced search to find specific claims based on tags, or to find all records in the system." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Provide examples of search criteria. "
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The following are some examples of search criteria that you can use to narrow your search results:\n\n* Patient name\n* Claim number\n* Claim date\n* Claim status\n* Payer name\n* Claim amount\n* Claim balance\n* Tag\n\nYou can also use the advanced search to search for specific claims based on multiple criteria. For example, you could search for all claims from a current payer with an exact claim balance." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain how to search for specific patients using advanced search in ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To search for specific patients using advanced search in ZOLL Billing, follow these steps:\n\n1. Go to the patient's account page. You can get there by entering the patient's last name in the search bar and then clicking the patient name in the search results. Or click Patient Billing on the navigation bar, Final statement pending tag, and then clicking the patient's name.\n2. Click Advanced search.\n3. Enter the patient's information in the search fields. You can search by patient ID, last name, first name, date of birth, SSN (last 4), or transport information.\n4. Click Search.\n\nThe search results will display a list of patients that match your search criteria." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information can be obtained by using advanced search for claims?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can use the advanced search to find specific claims based on tags, exact claim balance, or claim in a certain profit center." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing allow users to assign claims to specific users during a search operation?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To assign claims to specific users during a search operation in ZOLL Billing, follow these steps:\n\n1. On the navigation bar, click 'Advanced'.\n2. Enter the criteria you wish to search on and then click Search.\n3. You can assign one or multiple claims at once by clicking the row the claim is on. As you pick a link, it highlights in yellow.\n4. When you are done, click Assign selected.\n5. On the pop-up window, click the Select user field and then pick the user's name you want to assign the claim(s) to from the list.\n6. Click Assign." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Discuss the process of searching for claims associated with specific tags."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To find all the claims associated with a tag:\n\n1. Click 'Advanced' search.\n2. Scroll down to the bottom of the page and click the \"Tags\" field.\n3. Enter the tag name.\n4. Click Search." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing handle advanced search queries involving claim balances?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "In addition to searching for patients, you can also use Advanced Search to find specific claims based on exact claim balance." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What options are available for users to manage search results, especially when dealing with large datasets?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The following options are available for users to manage search results, especially when dealing with large datasets:\n\n* **Export results to Excel:** This option allows users to export the search results to an Excel spreadsheet.\n* **Print results:** This option allows users to print the search results.\n* **Save results:** This option allows users to save the search results to a file on their computer.\n* **Filter results:** This option allows users to filter the search results by various criteria, such as patient name, claim number, claim date, claim status, payer name, claim amount, claim balance, and tag.\n* **Sort results:** This option allows users to sort the search results by various criteria, such as patient name, claim number, claim date, claim status, payer name, claim amount, claim balance, and tag." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712114770,
+    "nanos": 38754000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

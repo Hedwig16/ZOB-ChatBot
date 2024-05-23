@@ -1,0 +1,10 @@
+{
+  "name": "5cee667a-38bf-469d-b14d-28ac273fa6cd",
+  "displayName": "Launch.Authorization/PCS",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

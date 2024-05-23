@@ -1,0 +1,24 @@
+{
+  "name": "7272fd8b-4ec8-48d6-92f5-9e7ee21c9686",
+  "displayName": "PatientBilling",
+  "form": {
+  
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/548773629725/locations/global/collections/default_collection/dataStores/patientbilling-ds_1715855713765",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

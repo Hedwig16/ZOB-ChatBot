@@ -1,0 +1,10 @@
+{
+  "name": "1e13956d-c8f9-434e-b635-fe631532ba3b",
+  "displayName": "Launch.ManualSubmissionQueue",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

@@ -1,0 +1,17 @@
+{
+  "name": "8e674daf-d8a4-4c9c-a99a-e329308df4c7",
+  "displayName": "db",
+  "placeholders": [ {
+    "id": "request",
+    "name": "request"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

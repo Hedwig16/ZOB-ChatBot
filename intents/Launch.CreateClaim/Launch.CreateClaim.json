@@ -1,0 +1,13 @@
+{
+  "name": "547bacde-1922-4c14-9887-9cae8bc9b739",
+  "displayName": "Launch.CreateClaim",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

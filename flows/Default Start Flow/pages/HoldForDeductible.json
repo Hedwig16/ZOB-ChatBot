@@ -1,0 +1,24 @@
+{
+  "name": "131f5956-df19-4156-a2a9-9f72c8a599cf",
+  "displayName": "HoldForDeductible",
+  "form": {
+  
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/548773629725/locations/global/collections/default_collection/dataStores/holdfordeductible-ds_1715918839725",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

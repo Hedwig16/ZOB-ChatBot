@@ -1,0 +1,24 @@
+{
+  "name": "5e432555-d589-4387-9989-03bb30449480",
+  "displayName": "ManualSubmissionQueue",
+  "form": {
+  
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/548773629725/locations/global/collections/default_collection/dataStores/manualsubmissionqueue-ds_1715922252340",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

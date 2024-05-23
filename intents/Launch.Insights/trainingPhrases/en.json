@@ -1,0 +1,79 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Navigate to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " insights",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Navigate to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " insights page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " insights",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " insights page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Insights page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " insights page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Insights",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

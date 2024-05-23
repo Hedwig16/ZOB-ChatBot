@@ -1,0 +1,240 @@
+{
+  "name": "f2ecc289-f435-480f-9fc3-fcc059c2d27f",
+  "tags": [ "#Managing_Claim_Assignment" ],
+  "displayName": "Managing Claim Assignment",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can you view all claims assigned to a specific Biller?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "On the navigation bar, click Dashboard. Look under \"Claim assignments \u0026 reminders.\" If there are claims that are assigned to users, they will display here." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Describe the process of managing claim assignment from the claim page."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "1. On the Claim page, click the \"Assign to\" field and select the name from the list.\n2. Click Save." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain how to reassign claim ownership from the Claim page."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Claim ownership can be changed anytime. When you reassign the claim, the system removes the claim from the previous owner's Inbox and displays it in the new assignee's Inbox.\n1. On the Claim page, click the \"Assign to\" field and select a name from the list.\n2. Click Save." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you unassign claim ownership from the Claim page in ZOLL Billing? If so, how?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, you can unassign claim ownership from the Claim page in ZOLL Billing.\n1. On the \"Assign to\" field, click the X.\n2. Click Save." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do you view all claims assigned to a Biller?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "This is an easy way to see claims assigned to a Biller.\n1. On the navigation bar, click Dashboard.\n2. Look under \"Claim assignments \u0026 reminders.\"\n3. If there are claims that are assigned to users, they will display here." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Discuss the steps involved in assigning claim ownership from the Search Results page."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "1. On the navigation bar, click 'Advanced'.\n2. Enter the criteria you wish to search on and then click Search.\n3. You can assign all the claims at once by clicking the check box at the top of the table on the far left column.\n4. You can pick - and - choose which claims to assign by clicking the claim line. As you pick a link, it highlights in yellow.\n5. When you are done, click Assign selected.\n6. On the pop - up window, click the Select user field and then pick the user's name you want to assign the claim (s) to from the list.\n7. Click Assign." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Is it possible to assign multiple claims at once in ZOLL Billing? If yes, explain how."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, you can assign multiple claims at once in ZOLL Billing.\n1. On the navigation bar, click 'Advanced'.\n2. Enter the criteria you wish to search on and then click Search.\n3. You can assign all the claims at once by clicking the check box at the top of the table on the far left column.\n4. You can pick - and - choose which claims to assign by clicking the claim line. As you pick a link, it highlights in yellow.\n5. When you are done, click Assign selected.\n6. On the pop - up window, click the Select user field and then pick the user's name you want to assign the claim (s) to from the list.\n7. Click Assign." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What action should you take if you want to assign specific claims to a user?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "1. On the navigation bar, click 'Advanced'.\n2. Enter the criteria you wish to search on and then click Search.\n3. You can pick - and - choose which claims to assign by clicking the claim line. As you pick a link, it highlights in yellow.\n4. When you are done, click Assign selected.\n5. On the pop - up window, click the Select user field and then pick the user's name you want to assign the claim (s) to from the list.\n6. Click Assign." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do you ensure proper claim ownership management?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I apologize, but I am unable to provide information about claim ownership management. I am only able to provide information about Zoll billing procedures and guidelines." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712114379,
+    "nanos": 464839000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

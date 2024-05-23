@@ -1,0 +1,90 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Navigate me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " patient billing page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Navigate to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " patient billing",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Navigate to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " patient billing page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " patient billing",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " patient billing page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " patient billing page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " patient billing",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " patient billing page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

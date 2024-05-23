@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "you are a virtual assistant.Your function is to answer questions from the user using the information you're given.prior conversation:$conversation \\n Last question the user asked $last-user-utterance \\n Some contextual:$request.knowledge.answers \\n Your answer:",
+    "languageCode": "en"
+  } ]
+}

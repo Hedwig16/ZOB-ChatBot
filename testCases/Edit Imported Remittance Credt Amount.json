@@ -1,0 +1,90 @@
+{
+  "name": "bb18719f-419d-4743-a15a-89531d320873",
+  "tags": [ "#EditImported", "#RemittanceCredtAmount" ],
+  "displayName": "Edit Imported Remittance Credt Amount",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to Edit Imported Remittance Credit Amounts?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To edit imported remittance credit amounts, you can follow these steps: 1. On the Line-item Editor page, click the amount under the \"Provider paid\" heading. 2. The subsequent \"Line-item detail\" window displays the credit allocation. 3. Click Edit. 4. On the next Line-item editor page, make the modifications to the applicable fields and then click Post transaction." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I Edit Imported Remittance Credit Amounts?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To edit imported remittance credit amounts, you can follow these steps: 1. On the Line-item Editor page, click the amount under the \"Provider paid\" heading. 2. The subsequent \"Line-item detail\" window displays the credit allocation. 3. Click Edit. 4. On the next Line-item editor page, make the modifications to the applicable fields and then click Post transaction." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What happens If the line-item is for an imported remittance?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If the line-item is for an imported remittance, the next payer and status block on the Line-item Editor page will not display." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712552710,
+    "nanos": 555797000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

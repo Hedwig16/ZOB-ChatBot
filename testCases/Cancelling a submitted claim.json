@@ -1,0 +1,115 @@
+{
+  "name": "903f4498-bc04-48ab-9dc9-6ebd8dcfb3d4",
+  "tags": [ "#Billing", "#Workingclaims" ],
+  "displayName": "Cancelling a submitted claim",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can I Cancel a Submitted Claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "No, you cannot cancel a submitted claim. Instead, you can write the claim off or adjust the balance." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "write the claim off or adjust the balance"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When the Adjust balance window opens, write-off is automatically selected as the adjustment type. You can then click the Description field and then select a description from the list. You can also enter the adjustment amount for each HCPCS." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "can i cancle submitted claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "No, you cannot cancel a submitted claim. Instead, you can write the claim off or adjust the balance." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to adjust the balance?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To adjust the balance, you can click the \"Adjust balance\" button on the \"Running claim balance\" tab. The following steps are required to adjust the balance: 1. Enter the claim number in the search field. 2. Click the claim number in the search results. 3. Click the \"Adjust balance\" button on the \"Running claim balance\" tab. 4. Select the adjustment type and click the \"Description\" field. 5. Enter the adjustment amount for each HCPCS. 6. Click \"Post now\". You can view the write-off in the \"Credits\", \"Running Claim Balance\", and \"Running Charge Balance\" tabs on the \"Claim\" page." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712476247,
+    "nanos": 69638000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

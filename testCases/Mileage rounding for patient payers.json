@@ -1,0 +1,90 @@
+{
+  "name": "35d9cf5f-22d3-4768-af6b-232e86fb81ed",
+  "tags": [ "#Billing", "#Patientbilling" ],
+  "displayName": "Mileage rounding for patient payers",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to set mileage rounding for patients?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set mileage rounding for patients, you can click the \"Mileage rounding\" field and select an option from the list. You can also modify an existing policy or plan by clicking the \"Mileage rounding\" field and selecting to round up/down or use fractional mileage." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to  set mileage rounding for patients who are primary or self-pay payers?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set mileage rounding for patients who are primary or self-pay payers, you can: 1. On the navigation bar, click Settings 2. Click the Configuration tab 3. Scroll down to the \"Patient billing\" heading 4. Click on the \"Mileage rounding\" field and then select an option from the list 5. Scroll down and click Save." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Mileage Rounding for Patient Payers"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set mileage rounding for patients who are primary or self-pay payers, you can: 1. On the navigation bar, click Settings 2. Click the Configuration tab 3. Scroll down to the \"Patient billing\" heading 4. Click on the \"Mileage rounding\" field and then select an option from the list 5. Scroll down and click Save. You can also modify an existing policy or plan by clicking the \"Mileage rounding\" field and selecting to round up/down or use fractional mileage." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712469011,
+    "nanos": 883679000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

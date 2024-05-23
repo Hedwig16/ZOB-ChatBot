@@ -1,0 +1,390 @@
+{
+  "name": "9510bbba-1e79-4007-9371-daa155e3b407",
+  "tags": [ "#Billing", "#Patientbilling" ],
+  "displayName": "Matching patient records",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing determine if a new patient record is a match for an existing record?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing uses a weighted algorithm to determine if a new patient record is a match for an existing record. The algorithm considers the following matching criteria: Social security number, date of birth, first name, middle name, last name, address, name is similar or sounds like. If the new patient record matches enough of these criteria to equal 60, the system prompts you to verify the new patient record. If the combined weights of the criteria is over 96, the new patient record is considered an exact match of an existing record." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What criteria does the weighted algorithm use to determine a match between patient records?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The weighted algorithm considers the following matching criteria: Social security number, date of birth, first name, middle name, last name, address, name is similar or sounds like. If the new patient record matches enough of these criteria to equal 60, the system prompts you to verify the new patient record. If the combined weights of the criteria is over 96, the new patient record is considered an exact match of an existing record." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How many points is each matching criterion assigned in the weighted algorithm?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "In the weighted algorithm, each of the following matching criteria is given a number of points: • Social security number: 100 • Personal information: • Date of birth: 30 ° Sex: 0 。 First name: 9 • Middle name: 2 。 Last name: 34 • Address: 。 Address line 1: 6 • Address line 2: 2 。 City: 6 。 State: 5 。 Zip: 6 • Name is similar or sounds like: Based on the both the first and last names - this criteria returns a: 。 0-3 = not very similar 。 4 = strongly similar or identical (considered a match)." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain how the weighted algorithm handles social security numbers in patient record matching?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The weighted algorithm assigns 100 points to social security numbers. If the new patient record matches enough of the above criteria to equal 60, then it is considered a possible match which results in the system prompting you to verify the new patient record. If the combined weights of the criteria is over 96, the new patient record is considered an exact match of an existing record." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What personal information criteria are considered in the weighted algorithm, and how many points is each criterion assigned?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The weighted algorithm considers the following matching criteria: Social security number, date of birth, first name, middle name, last name, address, name is similar or sounds like. If the new patient record matches enough of these criteria to equal 60, the system prompts you to verify the new patient record. If the combined weights of the criteria is over 96, the new patient record is considered an exact match of an existing record." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does the algorithm evaluate the similarity of names in patient record matching?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The weighted algorithm evaluates the similarity of names based on the first and last names. If the similarity is 0-3, the names are not very similar. If the similarity is 4, the names are strongly similar or identical (considered a match)." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What combined weight score indicates an exact match between patient records?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If the combined weights of the criteria is over 96, the new patient record is considered an exact match of an existing record." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What score indicates a possible match between patient records?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If the new patient record matches enough of the above criteria to equal 60, then it is considered a possible match which results in the system prompting you to verify the new patient record." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "If a new patient record matches enough criteria to equal 60 points, what action does the system prompt the user to take?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If one or more records match these criteria, a number will be shown next to the \"Incomplete - Verify patient account\" button on the Dashboard, along with a \"Work\" button. You can click the \"Work\" button to view a list of matching patient records. If one of the records match, click the button to the left of the listing." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you describe the process for verifying a potential match between patient records in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing uses a weighted algorithm to determine if a new patient record is a match of an existing patient record when claims are imported or manually created. That algorithm determines when / if you get prompted to verify if the new patient record is a duplicate or a new record." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any limitations or considerations to keep in mind when using the weighted algorithm for patient record matching?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "In the weighted algorithm, each of the following matching criteria is given a number of points: Social security number: 100 Personal information: Date of birth: 30 Sex: 0 First name: 9 Middle name: 2 Last name: 34 Address: Address line 1: 6 Address line 2: 2 City: 6 State: 5 Zip: 6 Name is similar or sounds like: Based on the both the first and last names - this criteria returns a: 0-3 = not very similar 4 = strongly similar or identical (considered a match) Exact match: The new patient record is considered an exact match of an existing record when the combined weights of the above criteria is over 96 Possible match: If the new patient record matches enough of the above criteria to equal 60, then it is considered a possible match which results in the system prompting you to verify the new patient record Findings for each item display with a confidence flag: Red flag: The returned data did not match the sent data or there was no sent data to match on Manually create a claim Merge \u0026 Un-Merge patients Incomplete workflow Matching patient records Matching patient records Matching patient records Patient Demographic Verifier Manually create a claim Matching patient records Patient Demographic Verifier Manually create a claim Incomplete workflow Merge \u0026 Un-Merge patients" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does the weighted algorithm help streamline the process of managing patient records in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing tries to minimize duplicates by constantly comparing the name, SSN, address, and date of birth of existing records with the information being entered/imported. If a possible duplicate exists, the system presents the patient data and asks you to choose the correct information." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you provide examples of scenarios where the weighted algorithm may prompt for verification of a new patient record?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If a possible duplicate exists, the system presents the patient data and asks you to choose the correct information. If one or more records exist, a TBD displays in the \"Claim #\" column. You will need to verify whether the patient information on the imported PCR is a duplicate before you create the claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing ensure data accuracy and reduce the risk of creating duplicate patient records using the weighted algorithm?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing conducts a thorough search of existing records to identify any that share the same name, date of birth, and/or address. The weighted algorithm determines when/if you get prompted to verify if the new patient record is a duplicate or a new record." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the matching criteria in weighted algorithm?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The matching criteria in the weighted algorithm are: Social security number, date of birth, first name, middle name, last name, address, name is similar or sounds like." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712467467,
+    "nanos": 28438000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

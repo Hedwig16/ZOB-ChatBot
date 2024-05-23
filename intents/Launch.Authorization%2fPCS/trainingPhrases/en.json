@@ -1,0 +1,80 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Navigate me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Authorization/PCS page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Navigate to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Authorization/PCS",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Authorization/PCS",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Authorization/PCS page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Authorization/PCS",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Authorization/PCS",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Authorization/PCS page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

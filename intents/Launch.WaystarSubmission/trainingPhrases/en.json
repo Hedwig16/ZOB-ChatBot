@@ -1,0 +1,116 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Navigate to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " waystar submission",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Navigate to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Waystar submission page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Waystar submission"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Waystar"
+    }, {
+      "text": " submission page",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Waystar submission"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Waystar"
+    }, {
+      "text": " submission",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Waystar submission page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " Waystar submission page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch me to",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Waystar"
+    }, {
+      "text": " submission",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

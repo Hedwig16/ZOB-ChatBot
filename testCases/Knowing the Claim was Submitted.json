@@ -1,0 +1,265 @@
+{
+  "name": "c36d1f2f-da5d-4680-896e-6d57698b0c8c",
+  "tags": [ "#Subumitting_Claim" ],
+  "displayName": "Knowing the Claim was Submitted",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What indicators confirm that a claim has been successfully submitted?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When ZOLL Billing sends claims to the clearinghouse during its nightly submission, it gathers all the claims that are ready to go and puts them in a group or batch. You can find which batch a particular claim is in by going to the Claim page and clicking the \"Audit trail\" tab. For the date the claim was submitted, you will see an entry under the Details column that says \"Submitted to clearinghouse batch #XXXXXX, file XXXXXXX.\" Clicking the link in that message will take you to the \"Claim Batches\" page where you will find additional information about the amount of claims in the batch including all the claim numbers." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can users verify claim submission status?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "After you manually verify that the clearinghouse received the claim, click Verify receipt. \"Verify manually\" displays in the \"Receipt verified' column. If the verification was a mistake, click the 'x' next to \"Verify manually\" and the line will change back to \"Verify receipt.\"" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Describe the various methods for confirming claim submission in ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are two ways to confirm claim submission in ZOLL Billing:\n1. Go to the Claim page and click the \"Audit trail\" tab. For the date the claim was submitted, you will see an entry under the Details column that says \"Submitted to clearinghouse batch #XXXXXX, file XXXXXXX.\" Clicking the link in that message will take you to the \"Claim Batches\" page where you will find additional information about the amount of claims in the batch including all the claim numbers.\n2. After you manually verify that the clearinghouse received the claim, click Verify receipt. \"Verify manually\" displays in the \"Receipt verified' column. If the verification was a mistake, click the 'x' next to \"Verify manually\" and the line will change back to \"Verify receipt.\"" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What details are provided in the Submission History tab of a claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Submission History tab provides the following information about a claim:\n\n* Claim number\n* Date submitted\n* Status\n* Clearinghouse\n* Batch number\n* File number\n* Receipt date" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can users find information about claim batches?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can find information about claim batches by going to the Claim Batches page. To get to the Claim Batches page, hover over Claims on the navigation bar and click Claim Batches." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing assist users in tracking claim submission progress?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing allows users to track claim submission progress in several ways:\n\n* **Submission History tab:** This tab provides information about the claim's submission date, status, clearinghouse, batch number, file number, and receipt date.\n* **Claim Batches page:** This page provides information about the number of claims in a batch, the batch number, and the file number.\n* **Audit trail:** This tab provides an entry for the date the claim was submitted, which includes the clearinghouse batch number and file number." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can users manually verify claim submission status in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, users can manually verify claim submission status in ZOLL Billing by clicking \"Verify receipt\" on the Claim page." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the significance of the Batch# in ZOLL Billing's claim submission process?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Batch# in ZOLL Billing's claim submission process is significant because it allows users to track the progress of their claim submissions. By clicking on the Batch# link, users can view the claim submission details and all the claims within the batch." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any automated notifications for claim submission in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, ZOLL Billing sends automated notifications to users when there are important messages that they need to be aware of. These notifications are displayed next to the Help link on every page. Users can click on the envelope icon to view messages concerning issues that caused a claim they submitted to fail validation." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing ensure transparency in the claim submission process for users?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing ensures transparency in the claim submission process for users by providing the following information:\n\n* **Submission History tab:** This tab provides information about the claim's submission date, status, clearinghouse, batch number, file number, and receipt date.\n* **Claim Batches page:** This page provides information about the number of claims in a batch, the batch number, and the file number.\n* **Audit trail:** This tab provides an entry for the date the claim was submitted, which includes the clearinghouse batch number and file number.\n* **Automated notifications:** ZOLL Billing sends automated notifications to users when there are important messages that they need to be aware of. These notifications are displayed next to the Help link on every page. Users can click on the envelope icon to view messages concerning issues that caused a claim they submitted to fail validation." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712057293,
+    "nanos": 824587000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

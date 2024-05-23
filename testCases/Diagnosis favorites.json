@@ -1,0 +1,645 @@
+{
+  "name": "2f92983d-57a2-441c-ba8c-16153e0bc559",
+  "tags": [ "#Diagnosis_favorites" ],
+  "displayName": "Diagnosis favorites",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I mark diagnosis codes as favorites in ZOLL Billing, and what benefits does this provide?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To mark a diagnosis code as a favorite in ZOLL Billing, follow these steps:\n\n1. In the \"Diagnosis Codes\" list, click the \"Favorites\" column header to sort the codes by favorite status.\n2. Click the \"Star\" icon to the left of the diagnosis code you want to mark as a favorite.\n3. The diagnosis code will be added to the \"Favorites\" list.\n\nYou can also mark a diagnosis code as a favorite by clicking the \"Add to Favorites\" button in the \"Diagnosis Codes\" list.\n\nBenefits of marking diagnosis codes as favorites:\n\n* You can quickly access your favorite diagnosis codes from the \"Favorites\" list.\n* You can use the \"Favorites\" list to create a custom list of diagnosis codes that you frequently use.\n* You can share your \"Favorites\" list with other users." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain how using nicknames for diagnosis codes simplifies the process of assigning codes to claims?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When assigning diagnosis codes to claims, nicknames can be used to recall the code when assigning it to a claim. Nicknames can be letters or numbers but must be at least three characters in length. Favorites are identified by a star that appears next to the name. When assigning the code to a claim, the favorite will display at the top of the list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What visual indicator distinguishes diagnosis codes marked as favorites?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Favorites are identified by a star that appears next to the name. When assigning the code to a claim, the favorite will display at the top of the list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing prioritize favorite diagnosis codes when assigning them to claims?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When assigning the code to a claim, the favorite will display at the top of the list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Could you guide me through the process of using a diagnosis favorite when adding or changing a diagnosis code on a claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To use a diagnosis favorite when adding or changing a diagnosis code on a claim, you can follow these steps: 1. On the navigation bar, select **Settings**. 2. On the **Settings** page, click the **Diagnosis favorites** tab. 3. On the search field, enter a partial description or the ICD-10 code. As you type, a list appears. Select the code from the list. 4. The code displays under the search bar. Adding a nickname to the code is optional but if done, allows users to search for codes using the nickname when assigning codes to a claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Is it possible to import a list of diagnosis favorites from a CSV file in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, it is possible to import a list of diagnosis favorites from a CSV file in ZOLL Billing. To do this, follow these steps:\n\n1. Open the CSV file in a spreadsheet program.\n2. Make sure that the first row of the file contains the column headers \"Code\", \"Description\", and \"Nickname\".\n3. In the \"Code\" column, enter the ICD-10 code for each diagnosis favorite.\n4. In the \"Description\" column, enter a description for each diagnosis favorite.\n5. In the \"Nickname\" column, enter a nickname for each diagnosis favorite.\n6. Save the CSV file.\n7. In ZOLL Billing, go to the \"Settings\" page.\n8. Click the \"Diagnosis favorites\" tab.\n9. Click the \"Import\" button.\n10. Browse to the CSV file that you saved in Step 6.\n11. Click the \"Open\"" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the key considerations to keep in mind when preparing a CSV file for importing diagnosis favorites?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When preparing a CSV file for importing diagnosis favorites, there are a few key considerations to keep in mind:\n\n1. The first row of the file must contain the column headers \"Code\", \"Description\", and \"Nickname\".\n2. The \"Code\" column must contain the ICD-10 code for each diagnosis favorite.\n3. The \"Description\" column must contain a description for each diagnosis favorite.\n4. The \"Nickname\" column must contain a nickname for each diagnosis favorite.\n5. The file must be saved in CSV format.\n6. The file must be less than 10MB in size.\n7. The file must not contain any blank rows or columns.\n8. The file must not contain any invalid characters.\n9. The file must not contain any duplicate rows.\n10. The file must not contain any rows that are not in the correct format.\n\nIf you follow these guidelines, you will be able" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you walk me through the steps to import a diagnosis favorites list from a CSV file in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To import a list of diagnosis favorites from a CSV file in ZOLL Billing, follow these steps:\n\n1. Open the CSV file in a spreadsheet program.\n2. Make sure that the first row of the file contains the column headers \"Code\", \"Description\", and \"Nickname\".\n3. In the \"Code\" column, enter the ICD-10 code for each diagnosis favorite.\n4. In the \"Description\" column, enter a description for each diagnosis favorite.\n5. In the \"Nickname\" column, enter a nickname for each diagnosis favorite.\n6. Save the CSV file.\n7. In ZOLL Billing, go to the \"Settings\" page.\n8. Click the \"Diagnosis favorites\" tab.\n9. Click the \"Import\" button.\n10. Browse to the CSV file that you saved in Step 6.\n11. Click the \"Open\" button.\n12. The diagnosis favorites" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I manually create a list of diagnosis favorites in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To manually create a list of diagnosis favorites in ZOLL Billing, follow these steps:\n\n1. In the \"Diagnosis Codes\" list, click the \"Favorites\" column header to sort the codes by favorite status.\n2. Click the \"Star\" icon to the left of the diagnosis code you want to mark as a favorite.\n3. The diagnosis code will be added to the \"Favorites\" list.\n\nYou can also mark a diagnosis code as a favorite by clicking the \"Add to Favorites\" button in the \"Diagnosis Codes\" list." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What options are available for searching and adding diagnosis codes to the favorites list manually?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To manually create a list of diagnosis favorites in ZOLL Billing, follow these steps:\n\n1. In the \"Diagnosis Codes\" list, click the \"Favorites\" column header to sort the codes by favorite status.\n2. Click the \"Star\" icon to the left of the diagnosis code you want to mark as a favorite.\n3. The diagnosis code will be added to the \"Favorites\" list.\n\nYou can also mark a diagnosis code as a favorite by clicking the \"Add to Favorites\" button in the \"Diagnosis Codes\" list." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I add a nickname to a diagnosis code when manually creating a favorites list in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a nickname to a diagnosis code when manually creating a favorites list in ZOLL Billing, follow these steps:\n\n1. In the \"Diagnosis Codes\" list, click the \"Favorites\" column header to sort the codes by favorite status.\n2. Click the \"Star\" icon to the left of the diagnosis code you want to mark as a favorite.\n3. The diagnosis code will be added to the \"Favorites\" list.\n\nYou can also mark a diagnosis code as a favorite by clicking the \"Add to Favorites\" button in the \"Diagnosis Codes\" list." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Is it possible to edit the diagnosis favorites list after it has been created?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, it is possible to edit the diagnosis favorites list after it has been created. To do this, follow these steps:\n\n1. In the \"Settings\" page, click the \"Diagnosis favorites\" tab.\n2. Click the \"Edit\" button next to the diagnosis code you want to edit.\n3. Make the necessary changes to the diagnosis code.\n4. Click the \"Save\" button.\n\nThe diagnosis code will be updated in the \"Diagnosis favorites\" list." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps should I follow to delete a diagnosis favorite that was added by mistake?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To delete a diagnosis favorite that was added by mistake, follow these steps:\n\n1. In the \"Settings\" page, click the \"Diagnosis favorites\" tab.\n2. Click the \"Delete\" button next to the diagnosis code you want to delete.\n3. Click the \"Yes\" button to confirm the deletion.\n\nThe diagnosis code will be deleted from the \"Diagnosis favorites\" list." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any limitations or restrictions on the use of nicknames for diagnosis codes?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Nicknames can be letters or numbers but must be at least three characters in length. Nicknames cannot contain a comma. The maximum file size is 3 MB. Duplicate favorites will be ignored." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing handle duplicate favorites during the import process from a CSV file?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Duplicate favorites will be ignored during the import process from a CSV file." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you provide an example of the format for the CSV file used to import diagnosis favorites"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The CSV file should have the following columns:\n\nCode\nDescription\nNickname" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the maximum file size allowed for importing diagnosis favorites?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The maximum file size allowed for importing diagnosis favorites is 3 MB." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing handle the display of imported diagnosis favorites after the upload process?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "After the upload process, the imported diagnosis favorites will be displayed at the top of the list when assigning the code to a claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any specific validation checks or reviews required after importing diagnosis favorites ?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are no specific validation checks or reviews required after importing diagnosis favorites." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find additional resources or support if I encounter difficulties while managing diagnosis favorites?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If you need additional resources or support, you can contact ZOLL Billing support at [email protected]" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to set up diagnosis favorites?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set up diagnosis favorites, you can manually create a list by going to the Settings page and clicking the Diagnosis favorites tab. You can then enter a partial description or the ICD-10 code and select the code from the list. You can also add a nickname to the code to allow users to search for codes using the nickname when assigning codes to a claim. When assigning the code to a claim, the favorite will display at the top of the list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=f6fj0yksql" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how can i import list?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To import a diagnosis favorites list, you can create a CSV file and upload it to the system. The file format is pretty simple, you will need the diagnosis code and optionally, the nickname. For an example of file format, click \"Example CSV import file\"." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "is there any condition for importing a list?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are no specific conditions for importing a list. You can import a list of diagnosis favorites as long as the file format is correct." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how can i create a list manually?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To create a list manually, you can go to the Settings page and click the Diagnosis favorites tab. You can then enter a partial description or the ICD-10 code and select the code from the list. You can also add a nickname to the code to allow users to search for codes using the nickname when assigning codes to a claim. When assigning the code to a claim, the favorite will display at the top of the list." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to delete a diagnosis favorite?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To delete a diagnosis favorite, you can click the trash can associated with the code and then click Save. You can also hover over the tag name to display an X. Click the X to delete the tag." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712222015,
+    "nanos": 345607000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

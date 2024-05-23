@@ -1,0 +1,140 @@
+{
+  "name": "2a9edab0-df90-4155-a5b2-ac64968983cd",
+  "tags": [ "#managingpayers", "#payerdetails" ],
+  "displayName": "Managing payers",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I manage payers in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To manage payers in ZOLL Billing, follow these steps:\n\n1. Go to the \"Payers\" tab in the ZOLL Billing system.\n2. Click on the \"Add Payer\" button.\n3. Enter the payer's information, including the payer's name, address, and contact information.\n4. Click on the \"Save\" button.\n\nThe payer will now be added to your list of payers. You can view and edit the payer's information by clicking on the payer's name." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain how to add a new payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a new payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, find the Medicare payer and click the name.\n3. For a quick way to find a payer, type three or more characters of the payer's name in the search field.\n4. Click **Addresses**.\n5. Click **Add an address**.\n6. Enter the address and click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain the process of adding a new payer from the Payers menu in ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a new payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, click **Add a payer**.\n3. Enter the payer's information.\n4. Click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to add payers?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a new payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, click **Add a payer**.\n3. Enter the payer's information.\n4. Click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what is the use of details tab in payers?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Details tab is used when you are adding a new payer or if you want to modify existing payer details." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712208814,
+    "nanos": 915863000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

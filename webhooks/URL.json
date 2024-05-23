@@ -1,0 +1,10 @@
+{
+  "name": "ef4da2e9-2bf1-4c8c-a4f1-7d27d7df9b46",
+  "displayName": "URL",
+  "genericWebService": {
+    "uri": "https://7cbc7ad7-395c-4624-9561-5bd158081f05-00-1imnov820ta4.sisko.replit.dev:5000/dialogflow"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "name": "2b3d15e7-d3bd-4b91-9ef6-d9fcd71a843f",
+  "tags": [ "#Claim_Lifecycle" ],
+  "displayName": "Claim Lifecycle",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing handle claims that remain in a Submitted state for an extended period?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing automatically updates the claim status from Submitted to Follow - up - Un - adjudicated to draw attention to claims that have remained in a Submitted state for an extended period. This automatic change is based on the following number of days:\n- 30 days after submission: Medicare \u0026 Medicare Replacement, Railroad Medicare, Medicaid \u0026 Medicaid Managed Care, Commercial Payers\n- 60 days after submission: Auto, Workers Comp, Facility Payers, All non - primary claims (excluding patient)\n- 90 days after submission: VA (90 days is set for the VA for both primary and non - primary claims)" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What criteria trigger the automatic change from Submitted to Follow-up - Un-Adjudicated status in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The automatic change from Submitted to Follow-up - Un-Adjudicated status in ZOLL Billing is triggered based on the number of days a claim has remained in a Submitted state. The criteria are as follows:\n- 30 days after submission: Medicare \u0026 Medicare Replacement, Railroad Medicare, Medicaid \u0026 Medicaid Managed Care, Commercial Payers\n- 60 days after submission: Auto, Workers Comp, Facility Payers, All non - primary claims (excluding patient)\n- 90 days after submission: VA (90 days is set for the VA for both primary and non - primary claims)" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How many days after submission does ZOLL Billing automatically update Medicare claims to Follow-up - Un-Adjudicated status?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing automatically updates Medicare claims to Follow-up - Un-Adjudicated status 30 days after submission." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Name three payer types that are subject to automatic status change in ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Three payer types that are subject to automatic status change in ZOLL Billing are:\n- Medicare\n- Medicaid\n- Commercial Payers" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "After how many days of submission does ZOLL Billing update Auto payer claims to Follow-up - Un-Adjudicated status?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing updates Auto payer claims to Follow-up - Un-Adjudicated status 60 days after submission." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Is there a difference in the automatic update timeframe for VA claims compared to other payer types?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, the automatic update timeframe for VA claims is different from other payer types. VA claims are updated to Follow-up - Un-Adjudicated status 90 days after submission, while other payer types are updated after 30 or 60 days." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing draw attention to claims held in Follow-up - Un-Adjudicated status?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing draws attention to claims held in Follow-up - Un-Adjudicated status by automatically updating the claim status from Submitted to Follow-up - Un-Adjudicated." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What happens to claims after they are automatically updated to Follow-up - Un-Adjudicated status?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "After a claim is automatically updated to Follow-up - Un-Adjudicated status, it will be reviewed by a ZOLL Billing representative. The representative will determine the next steps for the claim, which may include sending a follow-up request to the payer or contacting the patient." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does the automatic update process work in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The automatic update process in ZOLL Billing is based on the number of days after submission. For Medicare, Medicare Replacement, Railroad Medicare, Medicaid, Medicaid Managed Care, and Commercial Payers, the update occurs 30 days after submission. For Auto, Workers Comp, Facility Payers, and all non-primary claims (excluding patient), the update occurs 60 days after submission. For VA claims, the update occurs 90 days after submission." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can users manually trigger the status change from Submitted to Follow-up - Un-Adjudicated in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "No, users cannot manually trigger the status change from Submitted to Follow-up - Un-Adjudicated in ZOLL Billing. This change is triggered automatically based on the number of days a claim has remained in a Submitted state." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712056433,
+    "nanos": 129211000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

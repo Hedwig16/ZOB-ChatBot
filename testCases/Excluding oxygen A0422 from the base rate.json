@@ -1,0 +1,490 @@
+{
+  "name": "9796c94a-c807-4f16-8f48-a6425543cf38",
+  "tags": [ "#Billing", "#Workingclaims" ],
+  "displayName": "Excluding oxygen A0422 from the base rate",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the purpose of excluding oxygen A0422 from the base rate in billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When billing a rolled payer, you can now exclude oxygen A0422 from rolling into the base rate. This is done by enabling \"non-rolling\" for A0422 on a charge category. When non-rolling is enabled, you will see an icon next to the charge." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing handle the inclusion of oxygen A0422 in the base rate for rolled payers?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To override the non-rolling setting for a particular claim, you can uncheck the \"Non-rolling\" box on the \"Override charge amount\" window. You can also apply \"non-rolling\" to oxygen on a claim-by-claim basis." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What does the icon next to the charge indicate when oxygen A0422 is excluded from the base rate?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The icon next to the charge indicates that the charge is set to non-rolling." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can users exclude oxygen A0422 from the base rate by charge category? If so, how?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, users can exclude oxygen A0422 from the base rate by charge category. To do this, you need to enable \"non-rolling\" for A0422 on a charge category. When non-rolling is enabled, you will see an icon next to the charge." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps are involved in changing oxygen A0422 to non-rolling within a charge category?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change oxygen A0422 to non-rolling within a charge category, you need to: 1. Click the Claim page 2. Click the Charges tab 3. Click the edit pencil 4. Scroll down until you find A0422 under the \"Other supplies \u0026 additional services\" heading 5. On the \"Override charge amount\" window, uncheck the Non-rolling box and then click Continue 6. Click the Save changes button." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can users override the non-rolling setting for oxygen A0422 for a particular claim? If yes, how?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, users can override the non-rolling setting for oxygen A0422 for a particular claim. To do this, you need to: 1. On the Claim page, click the Charges tab 2. Click the edit pencil 3. Scroll down until you find A0422 under the \"Other supplies \u0026 additional services\" heading 4. On the \"Override charge amount\" window, uncheck the Non-rolling box and then click Continue 5. Click the Save changes button." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing handle cases where users want to unroll oxygen A0422 for specific claims but maintain it as non-rolling for other claims?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "In cases where you want oxygen to be rolled into the base rate for a particular claim, and still want to use the charge category where oxygen is set to non-rolling, you can override the non-rolling setting for that claim. You can also apply non-rolling to oxygen on a claim-by-claim basis." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can users view expected amounts and readable files when oxygen A0422 is set to non-rolling"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When oxygen is set to non-rolling it will have its own set of expected amounts that can be viewed by clicking the \"Expected amounts\" tab. You will also see a separate entry for oxygen in the readable file." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any implications or considerations to keep in mind when excluding oxygen A0422 from the base rate?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When non-rolling is enabled for A0422 on a charge category, and you add that A0422 to a claim that is using that charge category and has a payer that is rolled, you will see an icon next to the charge. This icon gives you a visual indication that this charge is set to non-rolling." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing ensure accuracy and compliance when managing charge categories and non-rolling settings for oxygen A0422?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Within ZOLL Billing, contractual amounts are associated with the payer or facility. When you send an invoice to a contracted facility, or submit a claim to a contracted payer, the system uses the configured contractual amounts to determine the expected payment." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any limitations or restrictions on the frequency or method of excluding oxygen A0422 from the base rate?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can exclude oxygen from the base rate using charge categories or claim-by-claim. If you do not want to set oxygen to non-rolling for an entire charge category, but you do want to unroll it for one particular claim, you can apply non-rolling to oxygen on a claim-by-claim bases." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the benefits of excluding oxygen A0422 from the base rate, and when is it typically recommended to do so?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When billing a rolled payer, you can now exclude oxygen A0422 from rolling into the base rate. This is done by enabling the non-rolling box for A0422 in the charge category." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can users track and analyze the impact of excluding oxygen A0422 from the base rate on billing processes and reimbursement rates?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When oxygen is set to non-rolling it will have its own set of expected amounts that can be viewed by clicking the \"Expected amounts\" tab. You will also see a separate entry for oxygen in the readable file." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Exclude oxygen A0422 from the base rate"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can exclude oxygen from the base rate using charge categories or claim-by-claim. If you do not want to set oxygen to non-rolling for an entire charge category, but you do want to unroll it for one particular claim, you can apply non-rolling to oxygen on a claim-by-claim bases." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to change oxygen in a charge category to non-rolling"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change oxygen in a charge category to non-rolling, you can follow these steps: 1. On the Claim page, click the Charges tab 2. Click the edit pencil 3. Find the A0422 charge and click the edit pencil next to the \"Price per unit\" number 4. On the \"Override charge amount\" box, check the Non-rolling box and then click Continue 5. Click Save changes ." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can override the non-rolling setting for that claim"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To override the non-rolling setting for that claim, you can follow these steps: 1. On the Claim page, click the Charges tab 2. Click the edit pencil 3. Scroll down until you find A0422 under the \"Other supplies \u0026 additional services\" heading 4. On the \"Override charge amount\" window, uncheck the Non-rolling box and then click Continue 5. Click the Save changes button." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Unrolling oxygen from the base rate claim-by-claim"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To unroll oxygen from the base rate claim-by-claim, you can apply non-rolling to oxygen on a claim-by-claim bases." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can apply non-rolling to oxygen on a claim-by-claim bases"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can apply non-rolling to oxygen on a claim-by-claim bases by following these steps: 1. On the Claim page, click the Charges tab 2. Click the edit pencil 3. Find the A0422 charge and click the edit pencil next to the \"Price per unit\" number 4. On the \"Override charge amount\" box, check the Non-rolling box and then click Continue 5. Click Save changes." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Expected amounts and readable file"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When oxygen is set to non-rolling it will have its own set of expected amounts that can be viewed by clicking the \"Expected amounts\" tab. You will also see a separate entry for oxygen in the readable file." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712482115,
+    "nanos": 147144000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

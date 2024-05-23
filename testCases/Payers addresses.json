@@ -1,0 +1,465 @@
+{
+  "name": "07ec734d-fe8a-4b5c-99e6-e933ea88a65c",
+  "tags": [ "#payerAddresses" ],
+  "displayName": "Payers addresses",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I manage payers in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To manage payers in ZOLL Billing, follow these steps:\n\n1. Go to the \"Payers\" tab in the ZOLL Billing system.\n2. Click on the \"Add Payer\" button.\n3. Enter the payer's information, including the payer's name, address, and contact information.\n4. Click on the \"Save\" button.\n\nThe payer will now be added to your list of payers. You can view and edit the payer's information by clicking on the payer's name." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain how to add a new payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a new payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, find the Medicare payer and click the name.\n3. For a quick way to find a payer, type three or more characters of the payer's name in the search field.\n4. Click **Addresses**.\n5. Click **Add an address**.\n6. Enter the address and click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain the process of adding a new payer from the Payers menu in ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a new payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, click **Add a payer**.\n3. Enter the payer's information.\n4. Click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to add payers?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a new payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, click **Add a payer**.\n3. Enter the payer's information.\n4. Click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what is the use of details tab in payers?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Details tab is used when you are adding a new payer or if you want to modify existing payer details." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I add an address for a new payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add an address for a new payer in ZOLL Billing, you can follow these steps: 1. Click **Payers** on the navigation bar. 2. On the **Payers** page, find the Medicare payer and click the name. 3. For a quick way to find a payer, type three or more characters of the payer's name in the search field. 4. Click **Addresses**. 5. Click **Add an address**. 6. Enter the address and click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you guide me through adding an address for an existing payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add an address for an existing payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, find the Medicare payer and click the name.\n3. For a quick way to find a payer, type three or more characters of the payer's name in the search field.\n4. Click **Addresses**.\n5. Click **Add an address**.\n6. Enter the address and click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps should I follow to modify an address for an existing payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To modify an address for an existing payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, find the Medicare payer and click the name.\n3. For a quick way to find a payer, type three or more characters of the payer's name in the search field.\n4. Click **Addresses**.\n5. Click the address you want to modify.\n6. Make the necessary changes.\n7. Click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain how to add an address for a Medicare payer in ZOLL Billing"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add an address for a Medicare payer in ZOLL Billing: 1. Click **Payers** on the navigation bar. 2. On the **Payers** page, find the Medicare payer and click the name. 3. For a quick way to find a payer, type three or more characters of the payer's name in the search field. 4. Click **Addresses**. 5. Click **Add an address**. 6. Enter the address and click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the requirements for adding an address for a new payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add an address for a new payer in ZOLL Billing, you can follow these steps: 1. Click **Payers** on the navigation bar. 2. On the **Payers** page, find the Medicare payer and click the name. 3. For a quick way to find a payer, type three or more characters of the payer's name in the search field. 4. Click **Addresses**. 5. Click **Add an address**. 6. Enter the address and click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I access the Addresses tab for a payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To access the Addresses tab for a payer in ZOLL Billing, you can follow these steps: 1. Click **Payers** on the navigation bar. 2. On the **Payers** page, find and click the payer name. 3. Click the **Addresses** tab. 4. Click **Add an address**. 5. Modify the information as needed and then click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to add an address for an existing payer in ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add an address for an existing payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, find the Medicare payer and click the name.\n3. For a quick way to find a payer, type three or more characters of the payer's name in the search field.\n4. Click **Addresses**.\n5. Click **Add an address**.\n6. Enter the address and click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to add an address for a Medicare payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add an address for a Medicare payer in ZOLL Billing, you can follow these steps:\n\n1. Click **Payers** on the navigation bar.\n2. On the **Payers** page, find and click the payer name.\n3. Click the **Addresses** tab.\n4. Click **Add an address**.\n5. Modify the information as needed and then click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I enable or disable an address for a Medicare payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You cannot enable or disable a Medicare payer or delete it. However, you can add additional addresses to an existing Medicare payer. You can manage the addresses you enter, enabling/disabling, and removing them if needed." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What restrictions apply when adding addresses for Medicare payers in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Medicare payers cannot be enabled/disabled or deleted. However, you can add additional addresses to an existing Medicare payer. You can manage the addresses you enter, enabling/disabling, and removing them if needed. You cannot enable/disable the pre-configured addresses for this payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can I delete addresses for Medicare payers in ZOLL Billing? If so, how?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can delete addresses for Medicare payers in ZOLL Billing. You can enable/disable or delete the address you entered. You cannot enable/disable the pre-configured addresses for this payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "where can i view medicare payers?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To view a list of Medicare payers, click **Payers** on the navigation bar. On the **Payers** page, enter \"Medicare\" in the filter box under \"Policy types\". You can also view a list of Medicare payers on the **Insurance** page." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "the insurance page is read only can changeit?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The insurance page is read only. You can run coverage status from the Claim page \u003e \" Coordination of benefits \" tab. You can also run Insurance Discovery to see if the patient has additional or different coverage that you can use." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712209603,
+    "nanos": 483231000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

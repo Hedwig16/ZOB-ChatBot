@@ -1,0 +1,95 @@
+{
+  "name": "f603d98a-8b0e-48ab-ad25-e096c00a77b5",
+  "tags": [ "#Insights" ],
+  "displayName": "Insights",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what is Insights?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Insights is a Zoll billing tool that provides users with a comprehensive view of their billing data. It can be used to track invoices, payments, and credits, and to identify trends and patterns in billing activity. Insights can also be used to generate reports and forecasts, and to compare billing data with other users." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to use Insights?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To use Insights, users must first log in to their Zoll account. Once they are logged in, they can access Insights by clicking on the \"Insights\" tab in the top navigation bar.\n\nInsights is divided into three main sections:\n\n* **Overview:** This section provides a high-level overview of the user's billing data, including total invoices, payments, and credits.\n* **Invoices:** This section lists all of the user's invoices, including the invoice number, amount, due date, and status.\n* **Payments:** This section lists all of the user's payments, including the payment amount, date, and method.\n\nUsers can also use Insights to generate reports and forecasts. To generate a report, users must click on the \"Reports\" tab in the top navigation bar.\n\nInsights is a powerful tool that can help users to manage their billing data and identify trends and patterns." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain Insights"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Insights is a tool that allows you to manage your billing roles and permissions. You can leave the user permissions as they are, remove unneeded permissions, assign a pre-configured Billing role, customize a pre-configured Billing role, or create your own roles." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this : https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=b5r88lpaam" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712734199,
+    "nanos": 264732000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

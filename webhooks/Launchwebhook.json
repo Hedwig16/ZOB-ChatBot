@@ -1,0 +1,10 @@
+{
+  "name": "38a5c965-60c4-4cdd-a185-b8d1a88db6b6",
+  "displayName": "Launchwebhook",
+  "genericWebService": {
+    "uri": "https://us-central1-zobchatbot.cloudfunctions.net/launch"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

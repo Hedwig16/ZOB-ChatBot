@@ -1,0 +1,10 @@
+{
+  "name": "3f21b435-3497-4682-8458-19ee61f11118",
+  "displayName": "Launch.HoldForDeductible",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

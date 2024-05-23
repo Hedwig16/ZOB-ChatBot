@@ -1,0 +1,265 @@
+{
+  "name": "8cc7e26b-9f94-4e5d-92a9-95f6d8c42a46",
+  "tags": [ "#Billing", "#creatingClaim" ],
+  "displayName": "Verifying claim creation after import",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can you verify if data from emsCharts, RescueNet ePCR, or a 3rd party vendor successfully created a claim in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Imported PCRs come into ZOLL Billing as incomplete claims. You can view all incomplete claims on the Dashboard. To verify if the data successfully created a claim, you can use the Patient Demographic Verifier. At the top of the section, you will see the data and time of the last check. In the first column, you will see the information on the claim. In the second column, you will see the findings. If the findings are the same as the first column, a green check displays under the found information." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps are involved in checking if imported PCRs have created incomplete claims in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To check if imported PCRs have created incomplete claims in ZOLL Billing, you can: 1. View all incomplete claims on the Dashboard. 2. Click \"Pick claims\" and then pick the date of the import. 3. The Dashboard will let you know how many unassigned incomplete claims there are in the system." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain how to view all incomplete claims on the Dashboard in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To view all incomplete claims on the Dashboard in ZOLL Billing, you can: 1. Click \"Pick claims\" and then pick the date of the import. 2. The Dashboard will let you know how many unassigned incomplete claims there are in the system. 3. If there are claims that are assigned to users, they will display here." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do you access the workflow for viewing imported claims one after another on the Dashboard in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To access the workflow for viewing imported claims one after another on the Dashboard in ZOLL Billing, you can: 1. Click \"Pick claims\" and then pick the date of the import. 2. The system will put you into a workflow, serving up all imported claims one after another." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should you do if you want to check all incomplete claims created from imported PCRs in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To check all incomplete claims created from imported PCRs in ZOLL Billing, you can: 1. View all incomplete claims on the Dashboard. 2. Click \"Pick claims\" and then pick the date of the import. 3. The Dashboard will let you know how many unassigned incomplete claims there are in the system." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can you ensure that all imported PCRs are successfully processed and turned into claims in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Imported PCRs come into ZOLL Billing as incomplete claims. You can view all incomplete claims on the Dashboard. Click \"Pick claims\" and then pick the date of the import. The system will put you into a workflow, serving up all imported claims one after another." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain how the Dashboard assists in verifying claim creation after import in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Dashboard will let you know how many unassigned incomplete claims there are in the system. If you see a zero amount accompanied by a happy face, you can relax. If you see a number accompanied by a Work button, it's time to get those incomplete claims done." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing handle incomplete claims that are generated from imported PCRs?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To work unassigned, incomplete new claims, you can: Work oldest: If you want to work new claims by the oldest date of service, click Work oldest. The system will serve up the first incomplete, unassigned claim with the oldest date of service. Click Dashboard on the navigation bar. Click the Work button associated with the incomplete claims. If you have unworked incomplete claims, the system serves up the oldest incomplete claim for you to work - it may not be the same claim you just imported." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Verifying Claim Creation after Import"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If you see TBD in the \"Claim #\" column, it means that the import was successful but the system was unable to verify the patient account. You will need to verify whether the patient information on the imported PCR is a duplicate before you create the claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "If you are using emsCharts, RescueNet ePCR, or a 3rd party vendor to send data through the Billing API, how do you know the data successfully created a claim in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can view all incomplete claims on the Dashboard. Click \"Pick claims\" and then pick the date of the import. The system will put you into a workflow, serving up all imported clams one after another." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712392587,
+    "nanos": 932270000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

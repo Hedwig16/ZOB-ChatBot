@@ -1,0 +1,10 @@
+{
+  "name": "0bd64bd6-f026-4a05-851f-5cdefb4adeac",
+  "displayName": "Launch.Payment",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

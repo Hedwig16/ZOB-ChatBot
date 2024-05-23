@@ -1,0 +1,540 @@
+{
+  "name": "57be8e9a-a6b6-4328-af35-b6342830e6f0",
+  "tags": [ "#Configuring_RescueNet_ePCR" ],
+  "displayName": "Configuring RescueNet ePCR",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I configure RescueNet ePCR to send PCR data to ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To configure RescueNet ePCR to send PCR data to ZOLL Billing, you need to configure the Web Service and Extract Batching/Scheduling. You can find more information on how to do this in the following articles: https://help.zollonline.com/billing/Content/Configuring the Billing API/Configuring RescueNet ePCR.htm 1/2 12." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find the Web Service Configuration in the ZOLL Data Management Console?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To configure the Web Service, you can click Extract Management then click Web Service Configuration. In the \"Select a Company and State\" dialog box, you can select a company from the drop-down list and click the Billing Company radio button." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information do I need to provide in the Configuration Information dialog box for the Web Service?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To configure the Web Service, you need to provide the following information in the Configuration Information dialog box:\n\n* Company ID\n* Company Name\n* Billing Company ID\n* Billing Company Name\n* Billing Company Address\n* Billing Company City\n* Billing Company State\n* Billing Company Zip Code\n* Billing Company Phone Number\n* Billing Company Fax Number\n* Billing Company Email Address\n* Billing Company Website\n* Billing Company Tax ID\n* Billing Company EFT ID\n* Billing Company EFT Routing Number\n* Billing Company EFT Account Number\n* Billing Company EFT Bank Name" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I obtain the Service URL for configuring RescueNet ePCR?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Service URL for configuring RescueNet ePCR can be found in the \"Service URL\" field in the Configuration Information dialog box." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I define the data extraction schedule in RescueNet ePCR?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To define the data extraction schedule in RescueNet ePCR, you can click Extract Management then click Extract Batching/Scheduling. In the \"Select a Company and State\" dialog box, you can select a company from the drop-down list and click the Billing Company radio button. In the \"Extract Batching/Scheduling\" dialog box, you can define the following settings:\n\n* Extraction Frequency: This setting specifies how often the data will be extracted.\n* Extraction Start Time: This setting specifies the time of day when the data will be extracted.\n* Extraction End Time: This setting specifies the time of day when the data extraction will stop.\n* Extraction Days: This setting specifies the days of the week when the data will be extracted.\n* Extraction Interval: This setting specifies the number of minutes between each extraction.\n* Extraction Timeout: This setting specifies the number of minutes to wait for the data extraction to complete before it is aborted" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What options do I have for managing schedules in the Batching/Scheduling Management section?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "In the Batching/Scheduling Management section, you can create a schedule by selecting the Do you want to Manage Your Schedules? option and then selecting Billing from the Choose a purpose for the batch schedule window." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Which purpose should I select when creating a new batch schedule for billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When creating a new batch schedule for billing, you should select Billing from the Choose a purpose for the batch schedule window." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I specify the frequency and timing of data extraction for ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To specify the frequency and timing of data extraction for ZOLL Billing, you can click Extract Management then click Extract Batching/Scheduling. In the \"Select a Company and State\" dialog box, you can select a company from the drop-down list and click the Billing Company radio button. In the \"Extract Batching/Scheduling\" dialog box, you can define the following settings:\n\n* Extraction Frequency: This setting specifies how often the data will be extracted.\n* Extraction Start Time: This setting specifies the time of day when the data will be extracted.\n* Extraction End Time: This setting specifies the time of day when the data extraction will stop.\n* Extraction Days: This setting specifies the days of the week when the data will be extracted.\n* Extraction Interval: This setting specifies the number of minutes between each extraction.\n* Extraction Timeout: This setting specifies the number of minutes to wait for the data extraction to complete before it" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can I customize the extraction schedule to fit my organization's specific needs?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can customize the extraction schedule to fit your organization's specific needs." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps should I follow after selecting the purpose for the batch schedule?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "After selecting the purpose for the batch schedule, you should select Billing from the drop-down menu." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I ensure that the PCR data is sent to ZOLL Billing at the appropriate intervals?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can ensure that the PCR data is sent to ZOLL Billing at the appropriate intervals by configuring the Web Service. This step tells the system where you want to send the ePCR data. You can also configure Extract Batching/Scheduling to define what data you are sending and when." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Is there a way to review or modify existing batch schedules for billing purposes?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, you can change the schedule if needed. To change the schedule, you can use the following steps: 1. In the navigation bar, click Settings. 2. On the Configuration tab, scroll down to the \"Patient billing\" section. 3. Click on the days field and select a value from the list. 4. Click the statement field and select a value from the list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What permissions do I need to access and configure the extraction and scheduling settings in RescueNet ePCR?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To apply permissions to a user, you need to change their account type to Standard Users." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any specific system requirements or compatibility considerations to keep in mind when configuring RescueNet ePCR for integration with ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "RescueNet ePCR must be running version 6.5 or later." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I verify that the configuration settings for RescueNet ePCR and ZOLL Billing are properly synchronized?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "On the Configuration Information dialog box, you can verify that the configuration settings for RescueNet ePCR and ZOLL Billing are properly synchronized." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What troubleshooting steps should I take if I encounter issues with data extraction or scheduling in RescueNet ePCR?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If you encounter issues with data extraction or scheduling in RescueNet ePCR, you can try the following troubleshooting steps: 1. On the Tool Explorer panel, click Extract Management then click Web Service Configuration. 2. Click the green plus sign in the toolbar. 3. In the ' Select a Company and State ' dialog box: a. Select a company from the drop-down list. b. Click the Billing Company radio button. C. Click OK." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can I receive notifications or alerts regarding the status of data extraction and transmission to ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing will not generate patient invoices on future claims associated with this account. However, if the patient has insurance, the claim will still be sent to the insurance provider." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to configure RescueNet ePCR to send PCR data to ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To configure RescueNet ePCR to send PCR data to ZOLL Billing, you can follow these steps: 1. On the Tool Explorer panel, click Extract Management then click Web Service Configuration. 2. Click the green plus sign in the toolbar. 3. In the ' Select a Company and State ' dialog box: a. Select a company from the drop-down list. b. Click the Billing Company radio button. C. Click OK." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what information goes from Zoll Billing while configuring information dialog box?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The following information goes from ZOLL Billing to the Configuration Information dialog box: Username: Enter the API username/key Password: Enter the API key password Organization ID: This is the account ID of the Billing company Service URL: This URL was provided to you by the Billing company https://boundarysvc.zollonline.com/NEMSISWebService/NEMSISV3Service.svc Click Save" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what is scheduling?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Scheduling is the process of setting aside a specific time or date for something to happen. In the context of billing, scheduling refers to the process of setting aside a specific time or date for the extraction and transmission of data from RescueNet ePCR to ZOLL Billing." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how do i create a schedule?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To create a schedule, you can follow these steps: 1. On the Tool Explorer panel, click Extract Batching/Scheduling and then click Batching/Scheduling Management. 2. Create a schedule: a. On the first page, select the Do you want to Manage Your Schedules? option. b. On the bottom of the first page, find the Choose a purpose for the batch schedule window and select Billing from the drop-down menu. Click Next." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712289710,
+    "nanos": 412905000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

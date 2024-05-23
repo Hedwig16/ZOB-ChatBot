@@ -1,0 +1,415 @@
+{
+  "name": "26caa324-43a5-4b2e-baa7-88cec39e61d9",
+  "tags": [ "#Billing", "#CreatingClaim" ],
+  "displayName": "Merging incomplete claims",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do you merge incomplete claims in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To merge incomplete claims in ZOLL Billing, you can: 1. Review the information. 2. If the imported claim is a duplicate of an existing claim, click \"Yes, merge this claim\". 3. If it is not, click \"No, create a new claim\"." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain the process of merging imported claims with existing incomplete claims in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To merge imported claims with existing incomplete claims in ZOLL Billing, you can: 1. Review the information. 2. If the imported claim is a duplicate of an existing claim, click \"Yes, merge this claim\". 3. If it is not, click \"No, create a new claim\"." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What happens when you merge an imported claim with an existing incomplete claim in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When you merge an imported claim with an existing incomplete claim, the system makes modifications to the incomplete claim. The status of the import record for the new claim is updated to \"Not imported: merged into existing claim\" with a link to the existing claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps are involved in changing the loaded mileage and base rate units after merging claims by mistake in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To undo the modifications and import the claim again, you need to: 1. On the incomplete claim: 2. Change the loaded mileage back to the original amount 3. Decrease the amount of the base rate Units by one 4. Remove unwanted attachments." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you describe how to remove unwanted attachments from an incomplete claim in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To delete an attachment, click the X under the \"Delete\" column." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What does the system look at to determine if an imported NEMSIS file has been previously imported in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The system looks at the eRecord.01 value in the NEMSIS file to determine if the file has been previously imported. If it has never seen this value before, a claim is created. If this value is not unique (this file was already imported), then a message displays on the Import Claims page that reads \"Not imported: duplicate of existing claim\". This is important to note as you will have to modify the eRecord.01 value in the NEMSIS file to successfully re-import the file into ZOLL Billing." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can you modify the eRecord.01 value in a NEMSIS file to successfully re-import it into ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To modify the eRecord.01 value, you need to open the NEMSIS file and hit Ctrl F and then type eRecord.01. You will find the value under \u003cPatientCareReport\u003e." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you clarify how to locate and modify the eRecord.01 value in a NEMSIS file for re-importing in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To modify the eRecord.01 value, you need to open the NEMSIS file and hit Ctrl F and then type eRecord.01. You will find the value under \u003cPatientCareReport\u003e." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the significance of ensuring the eRecord.01 value is unique when re-importing a NEMSIS file in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The eRecord.01 value must be unique so try adding a character or letter to the beginning or end of the eRecord.01 name. In the example above we added a \"6\" to the end of \"Yargh\"." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain the importance of unique eRecord.01 values in ZOLL Billing's claim import process?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If the eRecord.01 value is not unique (this file was already imported), then a message displays on the Import Claims page that reads \"Not imported: duplicate of existing claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can you save and import a modified NEMSIS file into ZOLL Billing after changing the eRecord.01 value?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The system looks at the eRecord.01 value in the NEMSIS file to determine if the file has been previously imported." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What action should you take if a message displays \"Not imported: duplicate of existing claim\" when attempting to re-import a NEMSIS file in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To undo those modifications and import the claim again you will need to: 1. On the incomplete claim: a. Change the loaded mileage back to the original amount b. Decrease the amount of the base rate Units by one c. Remove unwanted attachments 2. Re-importing the NEMSIS file: The system looks at the eRecord.01 value in the NEMSIS file to determine if the file has been previously imported. If it has never seen this value before, a claim is created. If this value is not unique (this file was already imported) then a message displays on the Import Claims page that reads \"Not imported: duplicate of existing claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you guide me through the process of opening, modifying, and saving a NEMSIS file for re-importing in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change the eRecord.01 value, you need to open the NEMSIS file. You can then hit Ctrl F and then type eRecord.01. You will find the value under \u003cPatientCareReport\u003e." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps should be taken to ensure a successful re-import of a NEMSIS file in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To successfully re-import a NEMSIS file into ZOLL Billing, you will have to modify the eRecord.01 value in the NEMSIS file. The eRecord.01 value must be unique so try adding a character or letter to the beginning or end of the eRecord.01 name. In the example above we added a \"6\" to the end of \"Yargh\". You can then save the file and then import it into ZOLL Billing." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to undo modifications and import the claim again?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To undo those modifications and import the claim again you will need to: 1. On the incomplete claim: a. Change the loaded mileage back to the original amount b. Decrease the amount of the base rate Units by one c. Remove unwanted attachments 2. Re-importing the NEMSIS file: The system looks at the eRecord.01 value in the NEMSIS file to determine if the file has been previously imported. If it has never seen this value before, a claim is created. If this value is not unique (this file was already imported) then a message displays on the Import Claims page that reads \"Not imported: duplicate of existing claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to change the eRecord.01 value?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change the eRecord.01 value, you need to open the NEMSIS file. You can then hit Ctrl F and then type eRecord.01. You will find the value under \u003cPatientCareReport\u003e. The eRecord.01 value must be unique so try adding a character or letter to the beginning or end of the eRecord.01 name. In the example above we added a \"6\" to the end of \"Yargh\". You can then save the file and then import it into ZOLL Billing." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712391742,
+    "nanos": 628110000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

@@ -1,0 +1,265 @@
+{
+  "name": "d3a9922f-e32c-44e7-a5a1-15d7c5394ddb",
+  "tags": [ "#Specific_Statuses" ],
+  "displayName": "Finding Claims with Specific Statuses",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the purpose of the Advanced feature in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Advanced feature in ZOLL Billing allows you to search for specific claims based on tags, exact claim balance, or claim in a certain profit center." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can you quickly find claims with specific statuses?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Advanced feature in ZOLL Billing allows you to search for specific claims based on tags, exact claim balance, or claim in a certain profit center. To quickly find claims with specific statuses, you can use the filter options on the Claims page." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Describe the steps to search for claims with a specific status."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "1. On the right-hand side of the navigation bar, click Advanced.\n2. Click the \"Claim status\" field on the Advanced page.\n3. Click the status from the list.\n4. Click Search." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can users customize their search criteria for finding claims?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, users can customize their search criteria for finding claims. To do this, they can use the filter options on the Claims page. The filter options allow users to search for claims based on their status, type, date, and amount." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What role does the Claim Status field play in advanced search?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Claim Status field in the Advanced search allows you to filter your results by the status of the claim. You can select from the following statuses:\n\n* Open\n* Closed\n* Pending\n* Denied\n* Cancelled\n* Expired\n* Voided\n\nOnce you have selected the status you want to filter by, click the Search button to view the results." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing facilitate the process of locating claims with specific statuses?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing provides a fast and easy way to find claims with a specific status or status reason. To do this, you can use the Advanced search feature. The Advanced search feature allows you to filter your results by a variety of criteria, including status, type, date, and amount." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any limitations to searching for claims with specific statuses?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, there are some limitations to searching for claims with specific statuses. Some status/status reasons are set by the system and cannot be changed. Once a claim is complete, you cannot move it back to Incomplete. Once a claim has been billed, you cannot cancel it. You cannot close a claim with a balance. You can't move a claim to Credit Posted because that's a pass-through status and not a status your claim can sit in." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information is displayed when searching for claims with specific statuses?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When searching for claims with specific statuses, the following information is displayed:\n\n* Claim number\n* Incident or run number\n* Origin street or facility name\n* Destination street or facility name\n* Service date range\n* Claim status\n* Current payer\n* Current policy\n* Payer claim control number (ICN)\n* Origin street/facility\n* Destination street/facility\n* Claim balance\n* Tags" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does ZOLL Billing assist users in refining their search for claims with specific statuses?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing allows users to refine their search for claims with specific statuses by using the Advanced search feature. This feature allows you to filter your results by a variety of criteria, including status, type, date, and amount. You can also use the search bar to enter the patient ID, last name, run number, or claim number." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can users perform bulk actions on search results in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, users can perform bulk actions on search results in ZOLL Billing. To do this, they can select the check boxes next to the claims they want to act on and then click the desired action button. The available actions include:\n\n* Open\n* Close\n* Pending\n* Denied\n* Cancelled\n* Expired\n* Voided\n* Rebill\n* Reprocess\n* Resubmit\n* Reopen\n* Reopen and Rebill\n* Reopen and Reprocess\n* Reopen and Resubmit" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712056789,
+    "nanos": 655068000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

@@ -1,0 +1,415 @@
+{
+  "name": "f356fc3f-4d7c-40d4-8393-460a42732725",
+  "tags": [ "#Policies" ],
+  "displayName": "policies",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I add a policy for a payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a policy for a payer in ZOLL Billing, you must first create a policy type. Then, you can associate the policy type with the policy." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you guide me through adding a policy for an existing payer"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a policy for an existing payer in ZOLL Billing, you can follow these steps: 1. Click **Payers** on the navigation bar. 2. On the **Payers** page, find and click the payer name. 3. Click the **Policies** tab. 4. Click **Add a policy**. 5. Enter the required information and then click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information is required when adding a policy for a payer in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a policy for a payer in ZOLL Billing, you must provide the following information: Primary submission type, ZirMed remit ID, ZirMed eligibility ID, and electronic filing indicator." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain the significance of policies in ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Policies in ZOLL Billing are used to define the submission and filing requirements for a payer. Policies can be used as a secondary or tertiary after a Medicaid primary." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I delete a policy for a payer "
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To delete a policy for a payer, you can follow these steps: 1. Click **Payers** on the navigation bar. 2. On the **Payers** page, find and click the payer name. 3. Click the **Policies** tab. 4. Click the **X** under the **Delete** column. The **X** will be disabled if the policy cannot be deleted." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What types of information can I include when adding a policy for a payer"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When adding a policy for a payer, you can include the following information:" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you provide details on the policy types available in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The policy types available in ZOLL Billing are: Insurance, Government, PPO, POS, EPO, Indemnity Insurance, HMO, Medicare Risk, AM, BL." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I associate multiple policy types with a single insurance in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can associate multiple policy types to a single insurance in ZOLL Billing. However, you cannot identify two of the same type such as two commercial policies. Each benefit plan must be associated with a policy, so it is important to identify all the payer's policies first before configuring the benefit plans." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the purpose of the Electronic filing indicator"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The electronic filing indicator is used on ANSI 837 and ANSI 837P ( Professional ) standard format to electronically transmit health care claims." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain the optional fields for clearinghouse in ZOLL Billing policies."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The optional fields for clearinghouse in ZOLL Billing policies are:. Clearinghouse claim ID. Clearinghouse eligibility ID. Provider ID. ZirMed remit ID. ZirMed eligibility ID. Primary submission type. Authorization number. Pending. Validation banners. ZOLL Charges. Rates. Amount. HCPCS. BLS. ALS. ASL2. Mileage. Implementation Services. Last Updated. ZOLL Billing Questionnaire. ZOLL Charges. Rates. Amount. HCPCS. BLS. ALS. ASL2. Mileage. ZOLL Billing Questionnaire. Implementation Services. Last Updated. ZOLL Billing Questionnaire. ZOLL Charges. Rates. Amount. HCPCS. BLS. ALS. ASL2. Mileage. ZOLL Billing Questionnaire. Implementation Services. Last Updated. ZOLL Billing Questionnaire. ZOLL Charges. Rates. Amount. HCPCS. BLS. ALS. ASL2. Mileage. ZOLL Billing Questionnaire. Implementation Services. Last Updated. ZOLL Billing Questionnaire. ZOLL Charges. Rates. Amount. HCPCS. BLS. ALS. ASL2. Mileage. ZOLL Billing Questionnaire. Implementation Services. Last Updated. ZOLL Billing Questionnaire. ZOLL Charges. Rates. Amount. HCPCS. BLS. ALS. ASL2. Mileage. ZOLL Billing Questionnaire. Implementation Services. Last Updated. ZOLL Billing Questionnaire." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I set the Primary and Secondary submission types for a payer's policy in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set the Primary and Secondary submission types for a payer's policy in ZOLL Billing, you can click the Policies tab and select the policy from the list. Then, click the \"Primary submission\" and/or the \"Secondary submission\" field and select Manual submission from the drop-down list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the Timely filing claims field used for in ZOLL Billing policies?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Timely filing claims field in ZOLL Billing policies is used to indicate the amount of time the insurance company allows for claim submission. If the timely filing is 90 days, you have up to 90 days from the claim's date of service to submit the claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I set default HCPCS for mileage charges for a Medicaid payer"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set default HCPCS for mileage charges for a Medicaid payer, you can click Payers on the navigation bar, then find and click the payer name. Next, click the Policies tab and scroll down to the bottom of the page to look for the Default HCPCS for. Enter the HCPCS you want in each field and then click Save \u0026 Close." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to add a policy?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a policy, you can click Payers on the navigation bar, then find and click the payer name. Next, click the Policies tab and click Add a policy. Enter the required information and then click Save. You can also click the Policy type field and select Medicaid Managed Care. You can also click the Electronic filing indicator field and select the appropriate indicator." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "policy type"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "A policy type must be associated with the policy when it is created in ZOLL Billing. There are a number of types to choose from, including: Government, Facility, Commercial, PPO, HMO, Medicaid Managed Care. You can associate multiple policy types to a single insurance but you cannot identify two of the same type such as two commercial policies." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to delete a policy?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To delete a policy, you can click the X under the Delete column on the same line as the policy you wish to delete. The X will be disabled if the policy cannot be deleted. You can also delete a policy if it is not associated with a claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712211277,
+    "nanos": 370807000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

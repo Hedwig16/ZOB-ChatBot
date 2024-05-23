@@ -1,0 +1,13 @@
+{
+  "name": "b9117f41-cffb-49c4-bcfb-6bdb1360ef4b",
+  "displayName": "Launch.AutoCrossover",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

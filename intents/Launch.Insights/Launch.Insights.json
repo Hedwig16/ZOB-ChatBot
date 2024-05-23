@@ -1,0 +1,10 @@
+{
+  "name": "5d2e8385-d184-475d-857d-8141819ae8bd",
+  "displayName": "Launch.Insights",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

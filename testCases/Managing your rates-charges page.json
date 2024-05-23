@@ -1,0 +1,615 @@
+{
+  "name": "6393e37e-d121-4edf-b52f-1e8000ebf15a",
+  "tags": [ "#Managing", "#rate-chargepage" ],
+  "displayName": "Managing your rates-charges page",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I manage rates using the Charges tab?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Sure, I can help you with that. The Charges tab is located under **Settings**. You can use the Charges tab to:\n\n* View your rates\n* Change rates\n* Create categories\n\nI hope that helps. Let me know if you have any other questions." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain how to view and change rates"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To view and change rates, you can use the **Charges tab** under **Settings**. \n\nHere are the steps:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges tab**.\n3. If you did not add a category, the base rates display.\n4. Click the **edit icon** on the upper right.\n\nI hope that helps. Let me know if you have any other questions." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to set future base rates for services "
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set future base rates, you can follow these steps:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges tab**.\n3. Click **Add a date range**.\n4. Enter the **effective date** (starting date).\n5. Click **Continue**.\n\nThe next page displays the existing charge rates by **HCPCS**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the benefits of creating categories for rates?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Categories are used to group rates that are different from your base rates. For example, if you are charging different rates for a specific type of trip, you can create a category for those rates.\n\nOnce you create a category, your base rates will show under the **Universal category**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Explain the process of adding charges to categories with date ranges."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Sure, I can help you with that.\n\nTo add charges to categories with date ranges, you can follow these steps:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges** tab.\n3. Click **Add a charge category**.\n4. Add the category name.\n5. If the category is ongoing, you do not have to put in an effective or end date.\n6. Click **Continue**.\n7. Enter values (your rates) in the **Price per unit** fields.\n8. Scroll down to the bottom and click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I apply a category to charges on a claim"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To apply a category to a claim, you can follow these steps:\n\n1. On the **Charges tab**, click the **Charge category field** and select the category.\n\n2. The rates will be applied to the **HCPCS** for the claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Guide me through deleting a charge category"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Sure, I can help you with that.\n\nTo delete a charge category, you can follow these steps:\n\n1. On the **Settings page**, click the **Charges tab**.\n2. Click the **View field** and select the category you want to delete.\n3. Click **Edit**.\n4. Click **Delete charge category**.\n5. Click **Delete** on the confirmation window." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": " how to change rates for a specific category "
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change rates for a specific category, you can follow these steps:\n\n1. On the **Charges tab** under **Settings**, click the **View** field and select the category.\n2. Click **Edit**.\n3. Add or change rates as needed.\n4. Click **Save**.\n\nOnce Universal charge rates are defined, they can be changed at anytime by going to **Settings \u003e Charges tab \u003e Universal category**, and editing the amount." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps are involved in setting up categories with date ranges?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Sure, I can help you with that.\n\nTo set up categories with date ranges, you can follow these steps:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges** tab.\n3. Click the **View** field and select the **Universal category**.\n4. Click **Add a date range**.\n5. Enter the **effective date** (starting date).\n6. Click **Continue**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to add a charge category"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a charge category, you can follow these steps:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges** tab.\n3. Click **Add a charge category**.\n4. Enter the **category name**.\n5. If you want the charge rates to only apply for a specific time period, click **Add a date range**.\n\nI hope that helps! Let me know if you have any other questions." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to change rates for services, mileage, or supplies"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change rates for services, mileage, or supplies, you can follow these steps:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges** tab.\n3. Click the **View** field and select the **category**.\n4. Click **Edit**.\n5. Add or change rates as needed.\n6. Click **Save**.\n\nI hope that helps! Let me know if you have any other questions." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What considerations should I keep in mind when creating categories for rates?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When creating categories for rates, you should keep in mind that you can have as many categories as you need. You should also keep in mind that you can use categories to create rates with a start and end date. For example, you can use a category to create rates for a specific type of trip that is different from your universal rates." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain the difference between the Universal category and custom categories"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Universal category is where default company charges are shown. These are the charges that display by default on the **Charges** tab when you are creating or working a claim.\n\nCustom categories are used to group rates for a specific purpose. For example, you can use a category to create rates for a specific type of trip that is different from your universal rates." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what are uses of the charges Tab?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Charges tab is used to:\n\n* View your rates\n* Change rates\n* Create categories\n\nThe Charges tab is not used to enter your base rates. Those are entered as you work claims." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to view base rate?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To view base rates, you can click **Settings** on the navigation bar and then click the **Charges** tab. If you have not added a category, the base rates will display. You can also click **View** to select the category you want to change and then click the **edit** icon. Remember, your base rates will be under the **Universal** category." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "should i want to enter new price per unit?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To enter a new price per unit, you can click **Settings** on the navigation bar and then click the **Charges** tab. If you have not added a category, the base rates will display. You can also click **View** to select the category you want to change and then click the **edit** icon. Remember, your base rates will be under the **Universal** category." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to set future base rates?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set future base rates, you can click **Settings** on the navigation bar and then click the **Charges** tab. You can then click **Add a date range** and enter the **effective date**. The system will continue to use the existing rates until the **effective date**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what should do in next page set future base rates?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The next page will display the existing charge rates by **HCPCS**. For each **HCPCS**, if you do not enter an amount in the **new date range** column, the rate will be **unchanged**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what is multiple universal categories?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When you create a category, your base rates will show under the **Universal** category. For example, you would see a **Universal** category with your base rates and a **Northwest** category with your **Northwest Region** rates. When you work a claim, the system gives you the option to use your **universal rates** or apply rates from a category." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to define categories in setting future base rates?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can create a category by clicking **Settings** on the navigation bar and then clicking the **Charges** tab. You can then click **Add a charge category** and add the category name. You can also define the charge rates on the **Universal** category by clicking the **View** field and selecting the **Universal** category. You can then click **Edit** and add or change rates as needed." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to create a category?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To create a category, you can follow these steps:\n\n1. Click **Settings** on the navigation bar\n2. Click the **Charges** tab\n3. Click **Add a charge category**\n4. Enter the category name\n\nYou can also use categories to create rates with a start and end date." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "how to create category beforing adding date range?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To create a category, you can follow these steps:\n\n1. Click **Settings** on the navigation bar\n2. Click the **Charges** tab\n3. Click **Add a charge category**\n4. Enter the category name\n\nYou can also use categories to create rates with a start and end date." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to delete charge category?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To delete a charge category, you can follow these steps:\n\n1. On the navigation bar, click **Settings**.\n2. On the Settings page, click the **Charges** tab.\n3. Click the **View** field and select the category you want to delete.\n4. Click **Edit**.\n5. The charge category displays on the page.\n6. Click **Edit** again.\n7. A pop-up window displays the dates for the category.\n8. Click the **Delete date range** button." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to change category rates?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To change category rates, you can follow these steps:\n\n1. Click **Settings** on the navigation bar\n2. Click the **Charges** tab\n3. Click the **View** field and select the category you want to change.\n4. Click the **Edit** icon on the upper right.\n5. Enter the new price per unit.\n6. Click **Save**." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712148051,
+    "nanos": 35197000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "495cf307-82a5-46a0-b6e6-40f6daf6e98a",
+  "displayName": "Launch.PatientBilling",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

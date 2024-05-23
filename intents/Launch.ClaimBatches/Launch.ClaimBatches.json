@@ -1,0 +1,13 @@
+{
+  "name": "cf5e62af-11ce-47fc-a197-b7e5723451a2",
+  "displayName": "Launch.ClaimBatches",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

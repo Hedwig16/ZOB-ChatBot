@@ -1,0 +1,10 @@
+{
+  "name": "7f8b8166-b44b-43bb-b2d2-c51a861c5a2a",
+  "displayName": "Launch.Report",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

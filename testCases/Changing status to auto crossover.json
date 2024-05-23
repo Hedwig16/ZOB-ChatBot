@@ -1,0 +1,130 @@
+{
+  "name": "98dde1c1-946f-45e2-b3d5-67b12d22083d",
+  "tags": [ "#Changestatus_to_autocrossover" ],
+  "displayName": "Changing status to auto crossover",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I Change Claim's Status to Auto Crossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ZOLL Billing automatically updates the claim status from Submitted to Follow - up - Un - adjudicated after 30 days. This automatic change is based on the following number of days : 30 days after submission • Medicare \u0026 Medicare Replacement • Railroad Medicare • Medicaid \u0026 Medicaid Managed Care • Commercial Payers 60 days after submission • Auto • Workers Comp • Facility Payers • All non - primary claims ( excluding patient ) 90 days after submission • VA ( 90 days is set for the VA for both primary and non - primary claims )." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=2jsz160e8m" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I set a claim to auto crossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim to auto crossover, you can hover over Claims on the navigation bar and click Waystar Submission. This will take you to the Claim Batches page where you can find additional information about the amount of claims in the batch." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=2jsz160e8m" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to Change Claim's Status to Auto Crossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim to auto crossover, you can hover over Claims on the navigation bar and click Waystar Submission. This will take you to the Claim Batches page where you can find additional information about the amount of claims in the batch." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=2jsz160e8m" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is Auto crossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Auto crossover is a feature that automatically updates the claim status from Submitted to Follow - up - Un - adjudicated after 30 days. This automatic change is based on the following number of days : 30 days after submission • Medicare \u0026 Medicare Replacement • Railroad Medicare • Medicaid \u0026 Medicaid Managed Care • Commercial Payers 60 days after submission • Auto • Workers Comp • Facility Payers • All non - primary claims ( excluding patient ) 90 days after submission • VA ( 90 days is set for the VA for both primary and non - primary claims )." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712552527,
+    "nanos": 474412000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

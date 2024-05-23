@@ -1,0 +1,10 @@
+{
+  "name": "3d1f4d04-c2d4-4807-b841-7f3d1ee707d2",
+  "displayName": "Launch.ClaimSubmission",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

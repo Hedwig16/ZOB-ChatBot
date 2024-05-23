@@ -1,0 +1,246 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Greetings! As your ZOLL BILLING Assistant, I'm here to provide dedicated support for any inquiries or issues you may encounter regarding help content related to ZOLL Billing. Please feel free to reach out at any time. I'm readily available to assist you!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cd5834d1-2d4a-4f87-84a8-8a117a921794"
+  }, {
+    "intent": "Launch.CreateClaim",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: ClaimImports/CreateNewClaim" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Createclaim",
+    "name": "d863f83a-cb5c-4312-9f5b-175a8dcb709f"
+  }, {
+    "intent": "Launch.Payment",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: PaymentPosting/AddLineItem" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Payment",
+    "name": "fb29eace-59e7-420c-bdf9-9370ba99e0a0"
+  }, {
+    "intent": "Launch.Report",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Report/Index" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Report",
+    "name": "617f30b5-c845-4518-99ac-b0e111c0ba3d"
+  }, {
+    "intent": "Launch.ImportClaim",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: ClaimImports/Index" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "ImportClaim",
+    "name": "cd55bcee-ac35-4132-8e67-62decb70ac2c"
+  }, {
+    "intent": "Launch.Authorization/PCS",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Account/Authorizations" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "AuthorizationPCS",
+    "name": "8657afbe-52f3-452c-9b9b-88be3945447a"
+  }, {
+    "intent": "Launch.AutoCrossover",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Claim/AutoCrossovers" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "AutoCrossover",
+    "name": "bd964b53-7d43-4cb4-8398-a4c7f50d1400"
+  }, {
+    "intent": "Launch.ClaimBatches",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Claim/ClaimSubmissionFiles" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "ClaimBatches",
+    "name": "b35ad6b4-38d8-4c99-90e5-f9426faa8c32"
+  }, {
+    "intent": "Launch.ClaimSubmission",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Inbox/ClaimSubmissions" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "ClaimSubmission",
+    "name": "b02ee56b-53dc-4fea-85ed-e376887b17ac"
+  }, {
+    "intent": "Launch.CreatePayer",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Payers/ViewPayer" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "CreatePayer",
+    "name": "35a37831-6aba-4e14-a94e-b710441ca116"
+  }, {
+    "intent": "Launch.HoldForDeductible",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Account/HoldForDeductible" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "HoldForDeductible",
+    "name": "e8c542f1-e06c-4a40-92b2-17d77a1bb653"
+  }, {
+    "intent": "Launch.Insights",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Birst/Index" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Insights",
+    "name": "af58645d-531c-4455-bbab-e5f5329f4526"
+  }, {
+    "intent": "Launch.ManualSubmissionQueue",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: ManualSubmission/Index" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "ManualSubmissionQueue",
+    "name": "3c2e9be1-854b-4c2f-a285-5ebc84ae6b3c"
+  }, {
+    "intent": "Launch.PatientBilling",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: PatientBilling/Index" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "PatientBilling",
+    "name": "8a4e3e03-1972-4737-bf7c-015d62105a91"
+  }, {
+    "intent": "Launch.WaystarSubmission",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Link: Troubleshooting/ZirMed" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "WaystarSubmission",
+    "name": "5f812a60-b7a8-4f0d-855c-910c8a25a21d"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "c052a62e-45d4-41ae-944b-7c6a51854648"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a192f8c7-c504-459a-baf1-4b1196b7286d"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.69999999
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "projects/zobchatbot/locations/global/agents/9d0e5422-7c6b-4e2d-83f7-00ae508e3f8e/webhooks/e6c28d9d-deb5-42c3-bd89-e5dfc29cd5e3",
+      "tag": "itemizingChargesWebhook"
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/548773629725/locations/global/collections/default_collection/dataStores/zob-data_1708929853397",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

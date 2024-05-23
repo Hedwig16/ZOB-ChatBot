@@ -1,0 +1,10 @@
+{
+  "name": "0a04ee0f-eaa0-476b-82c4-20f2b38989cd",
+  "displayName": "Explain",
+  "genericWebService": {
+    "uri": "https://fc3abcdf-8006-4fcc-ae12-a701aa5da4bd-00-5t88r8eszh62.sisko.replit.dev/dialogflow-webhook"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

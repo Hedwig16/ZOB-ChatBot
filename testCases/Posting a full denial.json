@@ -1,0 +1,370 @@
+{
+  "name": "a0c95955-fdfc-4647-9a11-2264c2cb17c1",
+  "tags": [ "#Posting_a_full_denial" ],
+  "displayName": "Posting a full denial",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I post a full denial for a claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To post a full denial for a claim, you will need to follow these steps:\n\n1. Log in to the Zoll billing system.\n2. Navigate to the \"Claims\" tab.\n3. Select the claim that you want to deny.\n4. Click on the \"Denial\" button.\n5. Enter the reason for the denial.\n6. Click on the \"Submit\" button.\n\nOnce you have submitted the denial, the claim will be updated and the patient will be notified." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information do I need to enter on the New Transaction page before posting a full denial?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To post a full denial, you need to enter the following information on the New Transaction page:\n\n* Deposit date\n* Transaction amount\n* Payer\n* Transaction type\n* Transaction number\n* Transaction date" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "When entering the claim number, what action do I take to initiate the full denial process?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When you enter the claim number, you need to click the Full denial button. The payment amount changes to $0.00 and the claim's status changes to denial. You can also enter a value in each of the Group/CARC fields. The value indicates the reason for the denial and can be found on the EOB." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should I do after clicking the Full denial button?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You should scroll down to the bottom of the page and verify that the unallocated amount is zero. You can't post the denial until the unallocated amount is zero." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I determine the reason for the denial, and where do I enter this information?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The value indicates the reason for the denial and can be found on the EOB. You can enter a value in each of the Group/CARC fields." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the significance of ensuring the unallocated amount is zero before posting the denial?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can't post the denial until the unallocated amount is zero. This is because the unallocated amount represents any remaining payments that have not been allocated to a specific payment. Once the unallocated amount is zero, you can click Post Transaction." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain the process of applying a new insurance to a claim after a full denial?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To apply a new insurance to a claim after a full denial, you will need to follow these steps:\n\n1. Log in to the Zoll billing system.\n2. Navigate to the \"Claims\" tab.\n3. Select the claim that you want to apply a new insurance to.\n4. Click on the \"Edit\" button.\n5. Click on the \"Insurance\" tab.\n6. Select the new insurance company from the drop-down menu.\n7. Enter the new insurance information.\n8. Click on the \"Save\" button.\n\nOnce you have saved the new insurance information, the claim will be updated and the patient will be notified." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where do I find the option to apply a new commercial insurance on the Claim page?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To apply a new commercial insurance, you can click the Edit button on the Coordination of benefits tab and then click Apply a new commercial insurance." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps do I follow to add a new commercial insurance to the claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To apply a new commercial insurance to a claim, you can follow these steps:\n\n1. Enter the claim number in the search field.\n2. When you get the search result, click the claim number.\n3. On the Claim page \u003e Coordination of benefits, click Edit.\n4. Click Apply a new commercial insurance." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "After adding the new primary payer, how is the original payer displayed on the Coordination of Benefits tab?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The original primary payer is now grayed out but the money they paid is still applied to the claim balance." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Is it possible to edit the information of the new commercial insurance once it's added?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Yes, you can edit the information of the new commercial insurance once it's added." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to Posting a Full Denial ?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To post a full denial, you can follow these steps:\n\n1. Click Payments in the navigation bar and then click Create a transaction.\n2. On the New Transaction page, enter your deposit date.\n3. Enter the transaction amount, then enter the payer, the transaction type, transaction number, and the date from the EOB or remit.\n4. Enter the claim number.\n5. Click the Full denial button.\n6. Enter a value in each of the Group / CARC fields. The value indicates the reason for the denial and can be found on the EOB.\n7. Scroll down to the bottom of the page and verify that the unallocated amount is zero.\n8. Click Post Transaction." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      }, {
+        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=bgysff9h9b" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "explain posting denial."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To post a full denial, you can follow these steps:\n\n1. Click Payments in the navigation bar and then click Create a transaction.\n2. On the New Transaction page, enter your deposit date.\n3. Enter the transaction amount, then enter the payer, the transaction type, transaction number, and the date from the EOB or remit.\n4. Enter the claim number.\n5. Click the Full denial button.\n6. Enter a value in each of the Group / CARC fields. The value indicates the reason for the denial and can be found on the EOB.\n7. Scroll down to the bottom of the page and verify that the unallocated amount is zero.\n8. Click Post Transaction." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I add a Payer After a Denial?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To apply a new commercial insurance to a claim, you can follow these steps:\n\n1. Enter the claim number in the search field.\n2. When you get the search result, click the claim number.\n3. On the Claim page \u003e Coordination of benefits, click Edit.\n4. Click Apply a new commercial insurance." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712554324,
+    "nanos": 767183000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

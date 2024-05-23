@@ -1,0 +1,265 @@
+{
+  "name": "20ac113f-2d01-4918-bd0f-fbf38154a03b",
+  "tags": [ "#Opening_a_Page_in_a_New_Tab" ],
+  "displayName": "Opening a Page in a New Tab",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Why would you need to open a page in a new tab?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "This is helpful if you need to view information on a different page but do not want to navigate away from your existing page." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Describe the steps to open a page in a new tab in ZOLL Billing."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "1. Hover your mouse over the selection in the navigation bar and right-click.\n2. Click Open link in new tab." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does opening a page in a new tab enhance user experience?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Opening a page in a new tab can enhance the user experience by allowing the user to view information on a different page without having to navigate away from their existing page. This can be helpful if the user is trying to compare information from two different pages or if they need to refer to information on a different page while they are working on their current page." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain a scenario where opening a page in a new tab would be beneficia?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "One scenario where opening a page in a new tab would be beneficial is when you are trying to compare information from two different pages. For example, you might be looking at a product description on one page and a customer review on another page. By opening each page in a new tab, you can easily switch between the two pages and compare the information side-by-side." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the advantages of using multiple tabs while navigating?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are several advantages to using multiple tabs while navigating. For example, using multiple tabs can help you to:\n\n* Compare information from different pages.\n* Keep track of multiple tasks.\n* Stay organized.\n* Reduce the number of times you have to click back and forth between pages.\n\nIf you are using a web browser that supports multiple tabs, I encourage you to try using them to see how they can help you to be more productive." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does opening pages in new tabs affect workflow efficiency?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Opening pages in new tabs can help to improve workflow efficiency by allowing users to quickly and easily switch between different tasks. This can be especially helpful when working on multiple projects or tasks at the same time. For example, if you are working on a document and need to reference a website, you can open the website in a new tab and quickly switch back and forth between the two windows. This can save you time and effort, and help you to be more productive." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Discuss the difference between opening a link in the same tab versus opening it in a new tab"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The main difference between opening a link in the same tab versus opening it in a new tab is that when you open a link in the same tab, the new page will replace the current page. This can be helpful if you want to keep track of the information on the current page. However, it can also be disruptive if you are trying to compare information from two different pages.\n\nWhen you open a link in a new tab, the new page will open in a separate window. This can be helpful if you want to compare information from two different pages or if you want to keep track of multiple tasks. However, it can also be more difficult to keep track of the information on the new page if it is not visible in the same window as the current page.\n\nUltimately, the best way to open a link depends on your individual needs and preferences. If you want to keep track of the information on the current page, you should open the link in the same tab. However" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "When would you recommend opening a page in a new tab rather than navigating directly to it?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I recommend opening a page in a new tab rather than navigating directly to it when you want to keep track of the information on the current page. This is because when you open a link in a new tab, the new page will open in a separate window. This can be helpful if you want to compare information from two different pages or if you want to keep track of multiple tasks. However, it can also be more difficult to keep track of the information on the new page if it is not visible in the same window as the current page." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any limitations or drawbacks to opening pages in new tabs?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are no limitations or drawbacks to opening pages in new tabs. However, it is important to be aware of the potential risks associated with opening multiple tabs. For example, if you open too many tabs, your computer may slow down or crash. Additionally, if you close a tab without saving your work, you may lose your progress." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can users make the most out of the option to open pages in new tabs?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are a few ways to make the most out of the option to open pages in new tabs. Here are a few tips:\n\n* Use a keyboard shortcut to open a link in a new tab. On most web browsers, you can press Ctrl+T to open a new tab.\n* Use the mouse to open a link in a new tab. On most web browsers, you can right-click on a link and select \"Open link in new tab.\"\n* Use the browser's tab management features to keep track of your open tabs. Most web browsers have features that allow you to organize your tabs, close them all at once, and switch between them quickly.\n\nBy using these tips, you can make the most out of the option to open pages in new tabs and improve your web browsing experience." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1712114545,
+    "nanos": 367870000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "45ee865e-fd5e-4633-8cb6-9759268c1d4b",
+  "displayName": "Launch.CreatePayer",
+  "parameters": [ {
+    "id": "launch",
+    "entityType": "@Launch"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}
