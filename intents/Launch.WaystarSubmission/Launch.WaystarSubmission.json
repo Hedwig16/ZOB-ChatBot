@@ -5,9 +5,9 @@
     "id": "launch",
     "entityType": "@Launch"
   }, {
-    "id": "person",
-    "entityType": "@sys.person"
+    "id": "Page",
+    "entityType": "@Page"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 9
+  "numTrainingPhrases": 2
 }

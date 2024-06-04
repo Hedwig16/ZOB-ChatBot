@@ -4,6 +4,28 @@
   "form": {
   
   },
+  "transitionRoutes": [ {
+    "intent": "GoBack.Page",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "822a4945-5e70-4eec-9004-27089ce21588"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "This page does not contain information about this. Please \"Go Back\" to the dashboard page or the relevant page for required information.\r\n", "This page contains information only about Claim Batches. For more information go back to the dashboard or the relevant page to get required information." ]
+        },
+        "languageCode": "en"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "b797d219-136a-4de6-b451-d76d4f202808"
+  } ],
   "knowledgeConnectorSettings": {
     "enabled": true,
     "triggerFulfillment": {

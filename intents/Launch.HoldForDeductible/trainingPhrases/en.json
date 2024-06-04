@@ -1,77 +1,27 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Navigate to",
+      "text": "Launch",
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " Manual Submission queue",
-      "auto": true
+      "text": " Hold For Deductible "
+    }, {
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
   }, {
     "parts": [ {
-      "text": "Navigate me to",
+      "text": "Launch",
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " Manual Submission queue page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
+      "text": " Hold for Deductible "
     }, {
-      "text": " Manual Submission queue",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": "  Manual Submission queue",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": "  Manual Submission queue page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": "  Manual Submission queue page"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Hold for deductible",
-      "auto": true
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"

@@ -1,56 +1,15 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Navigate me to",
+      "text": "Launch me to",
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " patient billing page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch",
+      "text": " patient billing ",
       "auto": true
     }, {
-      "text": " patient billing",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " patient billing page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " patient billing",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " patient billing page",
-      "auto": true
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
@@ -60,29 +19,11 @@
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " patient billing page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
+      "text": " patient billing ",
       "auto": true
     }, {
-      "text": " patient billing",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " patient billing page"
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"

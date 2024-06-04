@@ -4,6 +4,28 @@
   "form": {
   
   },
+  "transitionRoutes": [ {
+    "intent": "GoBack.Page",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "a5f32074-5233-4656-b388-4e6dd4710880"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "This page does not contain information about this. Please \"Go Back\" to the dashboard page or the relevant page for required information.", "This page contains information only about claim submission. For more information go back to the dashboard or the relevant page to get required information." ]
+        },
+        "languageCode": "en"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "cc2830ce-5149-4377-96ce-2ffe63fbb7e4"
+  } ],
   "knowledgeConnectorSettings": {
     "enabled": true,
     "triggerFulfillment": {

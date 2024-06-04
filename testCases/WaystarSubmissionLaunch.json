@@ -1,0 +1,240 @@
+{
+  "name": "d16ebf80-8ec7-47f6-a097-d95a02e19fc6",
+  "tags": [ "#WaystarSubmission", "#Launch" ],
+  "displayName": "WaystarSubmissionLaunch",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find the Waystar Submission page in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To find the Waystar Submission page, you can hover over the Claims tab on the navigation bar and click Waystar Submission. This page allows you to send all queued claims to the clearinghouse at the push of a button instead of waiting for the nightly scheduled delivery." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "launch me to waystar submission page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.WaystarSubmission"
+      },
+      "currentPage": {
+        "name": "WaystarSubmission",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: Troubleshooting/ZirMed" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find the Waystar Submission page in ZOLL Billing?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "WaystarSubmission",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To find the Waystar Submission page, you can hover over the Claims tab on the navigation bar and click Waystar Submission. This page allows you to send all queued claims to the clearinghouse at the push of a button instead of waiting for the nightly scheduled delivery." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the purpose of the Waystar Submission page?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "WaystarSubmission",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Waystar Submission page allows you to send all queued claims to the clearinghouse at the push of a button instead of waiting for the nightly scheduled delivery. To start, hover over Claims on the navigation bar and click Waystar Submission. Note: The table shows all the claims in the system, not just those scheduled for delivery." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I access the Waystar Submission page from the navigation bar?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "WaystarSubmission",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To start, hover over Claims on the navigation bar and click Waystar Submission. Note: The table shows all the claims in the system, not just those scheduled for delivery." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information does the table on the Waystar Submission page display?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "WaystarSubmission",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The table on the Waystar Submission page displays all the claims in the system, not just those scheduled for delivery. To start, hover over Claims on the navigation bar and click Waystar Submission." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What action do I take to send all queued claims to the clearinghouse from the Waystar Submission page?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "WaystarSubmission",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To start, hover over Claims on the navigation bar and click Waystar Submission." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Is the table on the Waystar Submission page limited to only showing claims scheduled for delivery?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "WaystarSubmission",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The table on the Waystar Submission page shows all the claims in the system, not just those scheduled for delivery." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Are there any specific permissions required to access and use the Waystar Submission feature?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "WaystarSubmission",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Waystar Submission feature is available to Customer Admins." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1717066176,
+    "nanos": 327113000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

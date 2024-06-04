@@ -1,52 +1,15 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Navigate to",
+      "text": "Launch me to",
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " claim batches",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch",
+      "text": " claim batches ",
       "auto": true
     }, {
-      "text": " claim batches page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " ",
-      "auto": true
-    }, {
-      "text": "Claim batches"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " ",
-      "auto": true
-    }, {
-      "text": "Claim"
-    }, {
-      "text": " batches page",
-      "auto": true
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
@@ -56,32 +19,11 @@
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " claim batches page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
+      "text": " claim batches ",
       "auto": true
     }, {
-      "text": " Claim batches page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " ",
-      "auto": true
-    }, {
-      "text": "Claim batches"
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"

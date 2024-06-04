@@ -4,6 +4,27 @@
   "form": {
   
   },
+  "transitionRoutes": [ {
+    "intent": "GoBack.Page",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "62058021-da6d-48e3-a2f3-ba8eb0fb24d7"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "This page does not contain information about this. Please \"Go Back\" to the dashboard page or the relevant page for required information.\n", "This page contains information only about Authorization PCS. For more information go back to the dashboard or the relevant page to get required information." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "b9939b3d-2910-4b3d-9695-94ff94c34461"
+  } ],
   "knowledgeConnectorSettings": {
     "enabled": true,
     "triggerFulfillment": {

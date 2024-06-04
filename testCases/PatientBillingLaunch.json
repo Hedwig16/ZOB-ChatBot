@@ -1,13 +1,13 @@
 {
-  "name": "0097f5ad-49f7-47ef-83fb-58f617ca858a",
-  "tags": [ "#Billing_roles_\u0026_permissions" ],
-  "displayName": "Billing roles \u0026 permissions",
+  "name": "dc4edebf-c617-4376-aff5-2a8c49a97a46",
+  "tags": [ "#PatientBilling", "#Launch" ],
+  "displayName": "PatientBillingLaunch",
   "testCaseConversationTurns": [ {
     "userInput": {
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How can I use billing roles and permissions to organize and manage tasks within my billing team?"
+          "text": "What should I do if a patient only has one more scheduled invoice?"
         },
         "languageCode": "en"
       }
@@ -18,7 +18,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Billing roles and permissions can be used to organize and manage tasks within your billing team. For example, you can give a user the Pre-Biller and the Biller role." ],
+        "text": [ "If a patient only has one more scheduled invoice, you can use the \"Final statement pending\" tab to send final notices, call the patient to ask for a payment, or inquire if they received retroactive Medicaid. You can also download the data to a CSV file for review." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -32,18 +32,43 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": " Where can I assign pre-configured billing roles to user accounts?"
+          "text": "launch me to patient billing page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.PatientBilling"
+      },
+      "currentPage": {
+        "name": "PatientBilling",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: PatientBilling/Index" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I navigate to the Patient Billing page?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Pre-configured billing roles can be assigned to user accounts through the Admin \u003e Billing \u003e User Accounts section." ],
+        "text": [ "To get to the Patient Billing page, hover over Claims on the navigation bar and click Patient Billing." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -57,18 +82,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Can I tailor pre-configured billing roles to fit my agency's specific requirements?"
+          "text": "What information can I find on the \"Active\" tab of the Patient Billing page?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, you can tailor pre-configured billing roles to fit your agency's specific requirements." ],
+        "text": [ "The \"Active\" tab shows all accounts that have at least one claim in the account where the patient is the current payer. On this tab you can find the: patient name, account number, the date the last statement was sent, amount paid by the patient, and outstanding patient responsibility." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -82,18 +107,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What options do I have if I don't want to apply user roles in my agency?"
+          "text": "What should I do if a patient only has one more scheduled invoice?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "If you don't want to apply user roles in your agency, you can either leave the user permissions as they are, remove unneeded permissions, or create your own roles." ],
+        "text": [ "You can use the \"Final statement pending\" tab to send final notices, call the patient to ask for a payment, or inquire if they received retroactive Medicaid." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -107,18 +132,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How can I remove existing permissions before applying a pre-configured billing role to a user?"
+          "text": "What actions can I take for accounts listed under the \"Final statement sent\" tab?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "If you are planning on applying a pre-configured Billing role to an existing user, it is important to remove all their permissions first. When you apply a role, any existing permissions will be retained on top of the new permissions activated by the role. You may end up with permissions that you do not want so it is a good idea to start with a clean slate." ],
+        "text": [ "You can send another patient statement, move this account to collection agency/state debt collections, or write off the amount as bad debt. You can also click \"Send another statement\" to remove the suspension and change the status on the claims associated with the account to \"Queued for submission – Patient statement\"." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -132,18 +157,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Where can I find the pre-configured billing roles in ZOLL Billing Admin interface?"
+          "text": "How do I see which accounts have had a collections letter sent?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The pre-configured billing roles are located in two areas under Admin \u003e Billing: User Accounts and User Groups. You can also create your own groups." ],
+        "text": [ "The \"Collections letter sent\" tab shows the account, number of claims, last statement date, the day you sent the collection letter, and account balance. When this is the case, the account displays under the \"Final statement sent\" tab on the Patient Billing page." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -157,18 +182,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What actions can Company Administrators perform regarding billing roles and permissions?"
+          "text": "How can I manually suspend a patient's billing account?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Company Administrators have full access to everything within ZOLL Billing. They can manage payers and facilities (create, edit, delete, copy) at the parent company level. They can also activate MFA." ],
+        "text": [ "You can manually suspend an account by clicking the \"Review\" icon and then the \"Suspend patient billing\" button. The reason for the suspension displays under the \"Suspension reason\" column. Accounts under this tab need to be worked daily." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -182,18 +207,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How can I customize pre-configured billing roles to better suit my company's needs?"
+          "text": "What happens when I suspend an account with an estate reason?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "You can customize pre-configured billing roles by adding or removing permissions. You can do this for the role as a whole or for an individual with a pre-configured role. You can also create your own roles and then apply permissions to those roles." ],
+        "text": [ "If the account is suspended with one of these estate reasons, invoices will not be generated for this patient. Estate suspended accounts can be managed on the Patient Billing page under the \"Estates\" tab." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -207,18 +232,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Can I create custom billing roles based on specific requirements?"
+          "text": "Where do I find accounts that have negotiated payment plans?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, you can create custom billing roles based on specific needs." ],
+        "text": [ "The \"Payment plans\" tab shows a list of patients that have a negotiated payment. Click the icon under the \"Review\" column to remove the patient from the plan, determine future steps, and view open claims and patient statements." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -232,18 +257,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What happens if I assign multiple roles to a user in ZOLL Billing?"
+          "text": "How do I filter the information displayed on any tab in the Patient Billing page?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, you can assign multiple roles to a user. When you apply a role, any existing permissions will be retained on top of the new permissions activated by the role. You may end up with permissions that you do not want so it is a good idea to start with a clean slate." ],
+        "text": [ "You can filter the information displayed on any tab in the Patient Billing page by using the boxes under the column headings. You can also sort rows by clicking the heading name." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -257,18 +282,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How are permissions applied when assigning roles to users in User Groups?"
+          "text": "How can I change the number of days between patient statements and the total number of statements?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Once a role is selected in User Groups, the permissions associated with the role are automatically checked in the \"Billing roles \u0026 permissions\" section. After you click Save, the permissions will be applied to the user the next time they log onto ZOLL Billing." ],
+        "text": [ "To change the schedule, use the following steps: 1. In the navigation bar, click Settings. 2. On the Configuration tab, scroll down to the \"Patient billing\" section. 3. Click on the days field and select a value from the list. 4. Click the statement field and select a value from the list. 5. On the bottom of the page, click Save." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -282,43 +307,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What actions are restricted for users with limited billing roles and permissions?"
+          "text": "What information can I find when I review a patient's account?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Users with limited billing roles and permissions will not be able to perform certain actions in ZOLL Billing. For example, users with the \"Billing User\" role will not be able to create or edit payers or facilities." ],
-        "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "How do I create custom billing roles in the User Groups section of ZOLL Billing Admin?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "To create custom billing roles, you can go to User Groups to view a list of the roles, create your own role, and modify the pre-configured Billing role permissions if needed." ],
+        "text": [ "When you review a patient's account, you can find the following information:" ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -332,18 +332,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Where can I view and manage user roles and permissions?"
+          "text": "What should I do if I want to move an account to a collection agency?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "You can view and manage user roles and permissions in the User Groups section of ZOLL Billing Admin." ],
+        "text": [ "To move an account to a collection agency, you can use the \"Move to Collections Agency\" button on the \"Patient responsibility\" tab. The first time you click this button, you will need to enter the collection agency information. The status of all the claims in patient billing for that account changes to \"Closed - In collections\". The write off amount displays on the \"Move to collection agency\" window. In addition, we add the collections agency as the final payer on the claim level COB. This allows you to post payments from the collections agency when they collect money." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -357,18 +357,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What steps do I take to apply a custom billing role to a user account?"
+          "text": "How do I suspend a patient's billing account manually?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To apply a custom billing role to a user account, you can go to Admin \u003e Billing \u003e User Accounts, click on the name of the account you want to add the User Group to, and select the User Group you have recently created." ],
+        "text": [ "To manually suspend an account, you can click the \"Review\" icon and then the \"Suspend patient billing\" button. The reason for the suspension displays under the \"Suspension reason\" column. Accounts under this tab need to be worked daily." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -382,18 +382,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Can I modify permissions for individual users within a user group?"
+          "text": "What happens to invoices when an account is automatically suspended due to exceeding the number of sent invoices?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, you can modify permissions for individual users within a user group. However, these permissions are grayed out and cannot be modified from the user account page. To make changes to the permissions, you need to navigate back to the User Groups section." ],
+        "text": [ "To remove the suspension, click \"Send another statement\". This action removes the account from the list on the \"Final statement sent\" tab and changes the status on the claims associated with the account to \"Queued for submission – Patient statement\"." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -407,18 +407,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How do dependencies affect the assignment of permissions in billing roles?"
+          "text": "How can I write off an account balance as bad debt?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Dependencies are permissions that need other permissions to work. For example, a user cannot \"Edit claim header\" without access to the \"View completed claim\" permission. If there is a dependency, you will see it called out in the pop-up window when you click the permission name." ],
+        "text": [ "To write off an account balance as bad debt, you can use the \"Write off as bad debt\" option. After you click Confirm, the status for all the claims associated with the account changes to \"Closed – Balance resolved\". The system shows the write off amount." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -432,18 +432,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What functionalities are available for all users regardless of their permissions?"
+          "text": "Where do I find the running balance of all claims associated with an account?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Company Administrators have full access to everything within ZOLL Billing. It does not matter what permissions you give, or not give, to a Company Administrator. This account type overrides any other setting in \"Billing roles \u0026 permissions\". To apply permissions to this user you will need to change their account type to Standard Users." ],
+        "text": [ "The running account balance tab shows the running balance of all the claims associated with the account. This list is dynamic, as claims are added or payments are made, the running balance changes. There is an option to print the running balance." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -457,18 +457,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How can I access reports to view the roles and permissions assigned to users?"
+          "text": "How do I view claim details for claims sent to collections or state debt?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "You can use the \"User and Assigned Groups\" and \"User and Assigned Permissions\" reports to view the roles and permissions assigned to users. These reports can be found under Analytics \u003e Reports. If the permission was inherited via a role, that permission highlights in blue. If the permission was manually assigned, it won't have a highlight." ],
+        "text": [ "The claims in collections tab shows a list of claim numbers associated with this account that have been sent to collections or state debt. Click the claim number to view the claim details." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -482,18 +482,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What information is provided in the \"User and Assigned Groups\" report?"
+          "text": "What action should I take if the patient's credit score is over 600 and they have a high likelihood to pay?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The User and Assigned Groups report shows a list of users and their assigned roles." ],
+        "text": [ "You may want to send another statement." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -507,18 +507,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Where can I find the \"User and Assigned Permissions\" report ?"
+          "text": "What can I do if the patient’s income compared to the Federal Poverty Level (FPL) is low?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The \"User and Assigned Permissions\" report can be found under Analytics \u003e Reports." ],
+        "text": [ "You may want to contact the patient and see if enrollment in Medicaid is an option. If the credit score and likelihood to pay are low, and the patient has never made a payment, you may want to either move the account to collections or write off the balance as bad debt." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -532,18 +532,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How do I distinguish between permissions inherited via a role and those manually assigned to a user?"
+          "text": "How do I generate an additional statement for accounts on the \"Final statement sent\" or \"Other suspensions\" tab?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "If the permission was inherited via a role, that permission highlights in blue. If the permission was manually assigned, it won't have a highlight." ],
+        "text": [ "If you are in the \"Final statement sent\" or \"Other suspensions\" tab and the number of sent statements exceeds the maximum number configured in the statement schedule, you can generate an additional statement by clicking the \"Send another statement\" button." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -557,18 +557,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What are the status reasons associated with billing roles?"
+          "text": "What should I consider if the patient's credit score and likelihood to pay are low, and they have never made a payment?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The status reasons associated with billing roles are: Coding needed, Facility needed, Payer needed, Charge needed." ],
+        "text": [ "You may want to either move the account to collections or write off the balance as bad debt." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -582,18 +582,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Where do the new status reasons appear in ZOLL Billing interface?"
+          "text": "How can I add a collection agency to an account for the first time?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The new statuses will be available for selection when you click the edit pencil next to the status / status reason on the claim header. For example, Suspended - Coding needed." ],
+        "text": [ "The only place you can add a collection agency is on the Patient responsibility tab. The first time you click the Move to Collections Agency button, you will need to enter the collection agency information. Once entered, you will have the option to select that collection agency or create a new one." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -607,18 +607,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Can I view the new status reasons on the Dashboard?"
+          "text": "Where can I see the details of the last statement sent to a patient?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, you can view the new status reasons on the Dashboard. When you click Incomplete or Suspended in the list of \"Claims by status\", one of the new statuses listed above will display if they are assigned to a claim." ],
+        "text": [ "The \"Active\" tab shows all accounts that have at least one claim in the account where the patient is the current payer. On this tab you can find the patient name, account number, the date the last statement was sent, amount paid by the patient, and outstanding patient responsibility." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -632,18 +632,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What options are available for status reasons when editing a claim header?"
+          "text": "How do I remove a patient from a payment plan?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "When editing a claim header, you can select from the following options for status reasons: Closed, Follow-up, Incomplete, New claim, Queued for submission, Submitted, Suspended" ],
+        "text": [ "To remove a patient from a payment plan, click the icon under the \"Review\" column on the Payment plans tab. This will allow you to remove the patient from the plan, determine future steps, and view open claims and patient statements." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -657,93 +657,18 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How do the new status reasons improve claim management?"
+          "text": "What should I do if I need to review a patient's propensity-to-pay information?"
         },
         "languageCode": "en"
       }
     },
     "virtualAgentOutput": {
       "currentPage": {
-        "name": "Start Page",
+        "name": "PatientBilling",
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The new status reasons support the Billing roles and permissions. For example, the status reason \"Coding needed\" allows users to manage claims that require coding." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "Are there any permissions or roles associated with managing tags in Zoll Billing?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "The creation and management of tags are not tied to any permission or role which means that all users can create / manage tags." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "What functionalities are accessible to Company Administrators?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "Company Administrators can manage payers and facilities (create/edit/delete/copy) at the parent company level. They are the only account types that can perform these types of actions regardless of permissions given to specific roles. This reduces the chances of duplicates in the system." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "How can I ensure that the permissions and roles I assign align with my agency's operational requirements in ZOLL Billing?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "You can assign pre-configured roles to users, customize pre-configured roles, or create your own roles. You can also remove unneeded permissions. When you apply a role, any existing permissions will be retained on top of the new permissions activated by the role." ],
+        "text": [ "To review a patient's propensity-to-pay information, you can click the review icon to view the patient's account. This page will help you to determine the best way to deal with the account. It shows the patient’s propensity-to-pay, current patient responsibility, running balance, and statement details." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -754,8 +679,8 @@
     }
   } ],
   "creationTime": {
-    "seconds": 1712295571,
-    "nanos": 349952000
+    "seconds": 1717063578,
+    "nanos": 514742000
   },
   "testConfig": {
     "flow": "Default Start Flow",

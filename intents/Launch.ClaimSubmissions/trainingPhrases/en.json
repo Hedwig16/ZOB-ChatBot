@@ -1,0 +1,29 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Launch",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " claim submissions "
+    }, {
+      "text": "page",
+      "parameterId": "Page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Launch",
+      "parameterId": "launch",
+      "auto": true
+    }, {
+      "text": " claim submission "
+    }, {
+      "text": "page",
+      "parameterId": "Page"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

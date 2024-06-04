@@ -1,22 +1,14 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Navigate me to",
+      "text": "Launch me to",
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " create claim",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch",
-      "auto": true
+      "text": " create claims "
     }, {
-      "text": " create claim page"
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
@@ -26,71 +18,10 @@
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " create claim",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
+      "text": " create claims "
     }, {
-      "text": " create claim page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " create claim page"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch"
-    }, {
-      "text": " create claim"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " create claim",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " claim page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " create claim page",
-      "auto": true
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"

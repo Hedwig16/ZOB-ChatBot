@@ -4,6 +4,27 @@
   "form": {
   
   },
+  "transitionRoutes": [ {
+    "intent": "GoBack.Page",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "ad906531-9bfd-48c3-8bf1-5205f1d38f70"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "This page does not contain information about this. Please \"Go Back\" to the dashboard page or the relevant page for required information.", "This page contains information only about Deductible monitoring. For more information go back to the dashboard or the relevant page to get required information." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9966328d-1efc-4bc6-9db9-30e559451cc5"
+  } ],
   "knowledgeConnectorSettings": {
     "enabled": true,
     "triggerFulfillment": {

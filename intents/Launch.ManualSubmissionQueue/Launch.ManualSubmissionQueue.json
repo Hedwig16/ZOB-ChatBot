@@ -4,7 +4,10 @@
   "parameters": [ {
     "id": "launch",
     "entityType": "@Launch"
+  }, {
+    "id": "Page",
+    "entityType": "@Page"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 7
+  "numTrainingPhrases": 1
 }

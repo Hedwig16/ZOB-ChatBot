@@ -1,0 +1,315 @@
+{
+  "name": "6cda4e00-4575-4014-a074-fd308c2fad9b",
+  "tags": [ "#ManualSubmissionQueue", "#Launch" ],
+  "displayName": "ManualSubmissionQueueLaunch",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what are the payer rules for submitting claims?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are two options for submitting claims: through a clearinghouse or by dropping to paper in-house (manual submission). The payer ID must be 100% correct in order to collect on a claim, send an eligibility request, or forward a remittance." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "launch me to manual submission queue page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.ManualSubmissionQueue"
+      },
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: ManualSubmission/Index" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I find out what the payer rules are for submitting claims?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The short answer is, you can go to your clearinghouse to find out." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where do I log on to check the payer rules using Waystar?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To check the payer rules using Waystar, you can log on and go to the bottom and click Payer list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should I do after logging onto Waystar to find the payer rules?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To check the payer rules using Waystar, you can log on and go to the bottom and click Payer list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I set manual submission for a payer in Admin if the rule requires a paper submission?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set manual submission in Admin, you can click Payers on the navigation bar. You can then click the name of the payer or start typing the payer name in the search bar to find the payer in the list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should I click on the navigation bar to find the payer in Admin?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set manual submission in Admin, you can click Payers on the navigation bar. You can then click the name of the payer or start typing the payer name in the search bar to find the payer in the list." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where do I select \"Manual submission\" for primary or secondary submission in the payer settings"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set manual submission in Admin, you can click Payers on the navigation bar. You can then click the name of the payer or start typing the payer name in the search bar to find the payer in the list. You can then select \"Manual submission\" for primary or secondary submission." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I access claims that require manual submission from the Dashboard?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are a couple of ways to access claims that require manual submission. Dashboard: Click Dashboard on the navigation bar. The number of manual submission claims displays next to the \"Queued for submission - manual submission\" banner. If the number is greater than zero, a Work button displays. Click the work button to get started." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should I do to submit a manual submission batch from the Claims menu?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To submit a manual submission batch from the Claims menu, you can hover over Claims on the navigation bar and select Manual Submission Queue. This page lists all batches that are waiting for manual submission. You can find the payer name in the list or use the search field to enter the payer's name. On the line associated with your selected payer, click the Submit button. A manual submission form will display." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I modify what prints out on the CMS 1500 form for a single claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To modify what prints out on the CMS 1500 form for a single claim, you can go to the Claim page and click Print 1500. You will see a list of options that you can set." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find the submission history for my manual submission claims?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ManualSubmissionQueue",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Submission history can be found in the \"Audit trail\" and \"Billing lifecycle\" tabs on the Claim page. You can also go the \"Submission history\" tab to view the 1500." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1717062095,
+    "nanos": 917866000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

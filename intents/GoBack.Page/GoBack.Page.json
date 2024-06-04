@@ -1,0 +1,10 @@
+{
+  "name": "4efca154-2d9d-4675-8f04-8896d93abb5b",
+  "displayName": "GoBack.Page",
+  "parameters": [ {
+    "id": "go_back",
+    "entityType": "@Go_Back"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

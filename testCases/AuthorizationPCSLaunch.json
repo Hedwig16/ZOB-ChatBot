@@ -1,0 +1,290 @@
+{
+  "name": "b3590cfe-3743-4330-a84c-af823ef0919c",
+  "tags": [ "#AuthorizationPCS", "#Launch" ],
+  "displayName": "AuthorizationPCSLaunch",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I add a PCS during claim creation?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a PCS during claim creation, you can: 1. In the Level of service \u0026 diagnosis tab, scroll to the bottom of the page. 2. Under the Physician Certification Statement heading, select Yes. This will open additional fields." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "launch me to authorization/pcs page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.Authorization/PCS"
+      },
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: Account/Authorizations" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I add a PCS during claim creation?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a PCS during claim creation, you can: 1. In the Level of service \u0026 diagnosis tab, scroll to the bottom of the page. 2. Under the Physician Certification Statement heading, select Yes. This will open additional fields. You can also: Hover over Claims and click Authorizations to view a list of PCS and non-PCS, as well as their attachments, on file for all patients." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I view a list of all PCS and non-PCS on file for all patients?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can view a list of all PCS and non-PCS on file for all patients by hovering over Claims and clicking Authorizations. You can also view all the PCS on file for a patient by going to the patient's Account page \u003e Coordination of Benefits tab." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I view all PCS on file for a specific patient?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can view all the PCS on file for a patient by going to the patient's Account page \u003e Coordination of Benefits tab. You can also view a list of all PCS and non-PCS on file for all patients by hovering over Claims and clicking Authorizations." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps do I follow to add a PCS to a completed claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To add a PCS to a completed claim, you can: 1. In the Level of service \u0026 diagnosis tab, scroll to the bottom of the page. 2. Under the Physician Certification Statement heading, select Yes. Selecting Yes opens additional fields." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should I do if there are multiple PCS to add during claim creation?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can add a PCS during claim creation or afterwords on the Claim page. To add a PCS, you can: 1. In the Level of service \u0026 diagnosis tab, scroll to the bottom of the page. 2. Under the Physician Certification Statement heading, select Yes. Selecting Yes opens additional fields." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find the PCS information on a completed claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can find the PCS information on a completed claim in the Level of service \u0026 diagnosis tab. To find the information, you can: 1. Scroll to the bottom of the page. 2. Under the Physician Certification Statement heading, select Yes." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I link to an existing PCS file or import a new one during claim creation?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can link to an existing PCS file or import a new one during claim creation by editing the \"Incident details\" tab." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I delete a PCS from a patient's account?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can delete a PCS from a patient's account by going to the patient's Account page \u003e Coordination of Benefits tab." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where do I enter the PCS signer type and expiration date during claim creation?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AuthorizationPCS",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can enter the PCS signer type and expiration date in the Level of service \u0026 diagnosis tab." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1717064650,
+    "nanos": 19557000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

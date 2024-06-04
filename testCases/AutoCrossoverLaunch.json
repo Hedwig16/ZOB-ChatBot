@@ -1,0 +1,315 @@
+{
+  "name": "f9deb2e9-2eae-43e0-8848-1a3c45208eb9",
+  "tags": [ "#AutoCrossover", "#Launch" ],
+  "displayName": "AutoCrossoverLaunch",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what is auto crossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Auto Crossover is a feature in ZOLL Billing that allows you to set a claim to Auto Crossover. When ZOLL Billing sends claims to the clearinghouse during its nightly submission, it gathers all the claims that are ready to go and puts them in a group or batch." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "launch me to auto crossover page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.AutoCrossover"
+      },
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: Claim/AutoCrossovers" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I initiate the process of setting a claim status to autocrossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim status to autocrossover, you need to apply a payment to the claim. You can do this by clicking the add a transaction link on the payments screen. You can then enter the transaction information and pull up the claim you're working on. You can then set the claim information forwarded to field where you select the appropriate crossover payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the first step in setting a claim status to autocrossover from the payments screen?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim status to autocrossover, you need to apply a payment to the claim. You can do this by clicking the add a transaction link on the payments screen. You can then enter the transaction information and pull up the claim you're working on. You can then set the claim information forwarded to field where you select the appropriate crossover payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information do I need to enter when adding a transaction for autocrossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim status to autocrossover, you need to apply a payment to the claim. You can do this by clicking the add a transaction link on the payments screen. You can then enter the transaction information and pull up the claim you're working on. You can then set the claim information forwarded to field where you select the appropriate crossover payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I pull up the claim I'm working on during the autocrossover process?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim status to autocrossover, you need to apply a payment to the claim. You can do this by clicking the add a transaction link on the payments screen. You can then enter the transaction information and pull up the claim you're working on. You can then set the claim information forwarded to field where you select the appropriate crossover payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What field do I need to select to set the claim information forwarded to?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim status to autocrossover, you first need to apply a payment to the claim. You can do this by clicking the add a transaction link on the payments screen. You can then enter the transaction information and pull up the claim you're working on. You can then set the claim information forwarded to field where you select the appropriate crossover payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Can you explain how to select the appropriate crossover payer?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim status to autocrossover, you first need to apply a payment to the claim. You can do this by clicking the add a transaction link on the payments screen. You can then enter the transaction information and pull up the claim you're working on. You can then set the claim information forwarded to field where you select the appropriate crossover payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What happens to the claim's next status after selecting the crossover payer?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim status to autocrossover, you first need to apply a payment to the claim. You can do this by clicking the add a transaction link on the payments screen. You can then enter the transaction information and pull up the claim you're working on. You can then set the claim information forwarded to field where you select the appropriate crossover payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I confirm the transaction after setting the claim status to autocrossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set a claim status to autocrossover, you first need to apply a payment to the claim. You can do this by clicking the add a transaction link on the payments screen. You can then enter the transaction information and pull up the claim you're working on. You can then set the claim information forwarded to field where you select the appropriate crossover payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What confirmation will Zoll Billing provide after posting the transaction?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Zoll Billing will provide a confirmation after posting the transaction." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I check the status of the claim after setting it to autocrossover?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "AutoCrossover",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can search on the claim number and look at the view claim page. You can see that you've successfully submitted for auto crossover, that the claim has completed process with Novitas solutions and is currently in process with Cigna." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1717065459,
+    "nanos": 274775000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

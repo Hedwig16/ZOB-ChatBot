@@ -1,89 +1,16 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Navigate me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " new payment page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " payment page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " new payment page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " payment page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " new payment page"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
       "text": "Launch",
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " to payment page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
+      "text": " payment "
     }, {
-      "text": " new payment page"
+      "text": "page",
+      "parameterId": "Page"
     } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " payment page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
+    "repeatCount": 2,
     "languageCode": "en"
   } ]
 }

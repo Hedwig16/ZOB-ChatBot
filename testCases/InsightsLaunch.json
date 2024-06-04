@@ -1,0 +1,239 @@
+{
+  "name": "cc3e013c-98e9-4a75-96d4-fda6d70f1239",
+  "tags": [ "#Insights", "#Launch" ],
+  "displayName": "InsightsLaunch",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the main purpose of using dashboards in Insights?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The dashboard is a powerful tool that offers a wide range of features and functionalities. It is the first page you land on when you log onto ZOLL Billing. You can easily access claims you worked on today, create or enter work flows for incomplete, follow-up, and denied claims, and view import issues that need your attention." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "launch me to insights page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.Insights"
+      },
+      "currentPage": {
+        "name": "Insights",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: Birst/Index" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the main purpose of using dashboards in Insights?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Insights",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "This page contains information only about Insights. For more information go back to the dashboard or the relevant page to get required information." ],
+        "containAttemptedDataStoreInteractions": true,
+        "containSafetyFailures": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What components make up a dashboard in Insights?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Insights",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "A dashboard in Insights has pages with: Dashlets that hold reports and prompt filters, Key performance indicator (KPI) widgets, Drill-across links, Images, Buttons, Text boxes." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I quickly check the health of an area of concern using Insights?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Insights",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Insights allows you to monitor many metrics in near real-time, so you can quickly check the health of an area of concern, or see a correlation between different reports." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is a dashlet and what does it contain?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Insights",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "A dashlet is a container that holds a report. A dashlet can contain a title, borders, and drill-across capability that links the report to a report in another dashboard." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find pre-made dashboards that come with Insights?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Insights",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Pre-made dashboards are available on the Home page. You can also create custom dashboards using Self Service." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should I do to save the changes I make while in Edit Mode?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Insights",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To save the changes you make in Edit Mode, you must click the Publish button." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I grant a user permission to view and create reports in Insights?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Insights",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To grant a user permission to view and create reports in Insights, you must be a Company Administrator. You can set permissions in Admin \u003e Insights \u003e User Accounts." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1717139849,
+    "nanos": 408971000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

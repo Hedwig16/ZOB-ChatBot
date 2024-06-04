@@ -1,0 +1,290 @@
+{
+  "name": "f830dbda-c410-4699-a1c7-fc9f9989e838",
+  "tags": [ "#ClaimBatches", "#Launch" ],
+  "displayName": "ClaimBatchesLaunch",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the different ways to verify that a claim was submitted to the clearinghouse?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can verify that a claim was submitted to the clearinghouse by checking the claim status, audit trail, and billing lifecycle tab. You can also manually verify that the clearinghouse received the claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "launch me to claim batches page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.ClaimBatches"
+      },
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: Claim/ClaimSubmissionFiles" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the different ways to verify that a claim was submitted to the clearinghouse?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can verify that a claim was submitted to the clearinghouse by checking the: Claim page, Claim Batches page, Claim Submissions page. You can also manually verify that the clearinghouse received the claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I tell if a claim has been submitted by checking the Claim page?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can tell if a claim has been submitted by checking the Claim page's: Claim status changes: The status changes to \"Submitted\". Submission history tab: Displays the submission date and the payer. Batch#: Displays the batch details including the processing information and the claim numbers of all claims in the batch. Submission data: Displays the submission file in a readable format, the CLP file, and charges on the claim. Billing lifecycle tab: Displays all the statuses the claim has gone through including the queued and submitted dates." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information is displayed on the Submission History tab of the Claim page?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Submission History tab displays the submission date and the payer. The Batch# displays the batch details including the processing information and the claim numbers of all claims in the batch. The Submission data displays the submission file in a readable format, the CLP file, and charges on the claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find the batch details for a submitted claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can find the batch details for a submitted claim by clicking the \"Audit trail\" tab on the Claim page. You will see an entry under the Details column that says \"Submitted to clearinghouse batch #XXXXXX, file XXXXXXX\". You can also find the batch details by clicking the \"Claim Batches\" link in that message." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What does the \"Receipt verified\" column indicate on the Claim Batches page?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The \"Receipt verified\" column on the Claim Batches page indicates whether the clearinghouse received the claim. If a message was received from the clearinghouse, this column displays \"Verified by clearinghouse\". If no message was received, \"Not verified\" displays and a \"Verify receipt\" button displays in the last column." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "If no message was received from the clearinghouse, what will be displayed in the \"Receipt verified\" column?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If no message was received from the clearinghouse, the \"Receipt verified\" column will display \"Not verified\" and a \"Verify receipt\" button will display in the last column." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I manually verify that the clearinghouse received a claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "After you manually verify that the clearinghouse received the claim, click Verify receipt. \"Verify manually\" displays in the \"Receipt verified' column. If the verification was a mistake, click the 'x' next to \"Verify manually\" and the line will change back to \"Verify receipt\"." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What options are available if I accidentally verify receipt manually and need to undo it?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If you accidentally verify receipt manually, you can click the 'x' next to \"Verify manually\" and the line will change back to \"Verify receipt\"." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find a list of claims with queued or submitted status on the Claim Submissions page?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "ClaimBatches",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can find a list of claims with queued or submitted status on the Claim Submissions page. You can click the claim number to go to the Claim page." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1717065701,
+    "nanos": 306261000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

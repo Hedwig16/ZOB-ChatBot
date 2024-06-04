@@ -4,6 +4,28 @@
   "form": {
   
   },
+  "transitionRoutes": [ {
+    "intent": "GoBack.Page",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "c58d244c-3344-40d5-9540-a10229a97724"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "This page does not contain information about this. Please \"Go Back\" to the dashboard page or the relevant page for required information.", "This page contains information only about Reports. For more information go back to the dashboard or the relevant page to get required information." ]
+        },
+        "languageCode": "en"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "ecac3881-9648-4263-9ab0-ed61a8009fb0"
+  } ],
   "knowledgeConnectorSettings": {
     "enabled": true,
     "triggerFulfillment": {

@@ -36,10 +36,20 @@
   "duplexSettings": {
   
   },
+  "callCompanionSettings": {
+    "company": "ZOB Chatbo"
+  },
   "answerFeedbackSettings": {
     "enableAnswerFeedback": true
   },
   "webClientSettings": {
-  
+    "displayName": "ZOB Chatbo",
+    "font": "Arial",
+    "textColor": "#000000",
+    "backgroundColor": "#f3f6fc",
+    "userInputColor": "#d3e3fd",
+    "agentResponseColor": "#fff",
+    "userInputTextColor": "#000",
+    "boxBorderRadius": "0"
   }
 }

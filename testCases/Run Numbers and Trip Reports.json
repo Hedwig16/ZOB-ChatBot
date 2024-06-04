@@ -1,5 +1,5 @@
 {
-  "name": "35c22444-95bd-4d26-9a85-5b5f74211377",
+  "name": "4f887d7a-03b2-4483-96d5-e495d760bced",
   "tags": [ "#Run_Numbers_and_Trip_Reports" ],
   "displayName": "Run Numbers and Trip Reports",
   "testCaseConversationTurns": [ {
@@ -32,7 +32,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What summary information does the Trip Counts report provide?"
+          "text": "User message: What summary information does the Trip Counts report provide?"
         },
         "languageCode": "en"
       }
@@ -43,7 +43,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The top of the Trip Counts report shows a summary of monthly trips listed by level of service. Under the summary, the report lists claim details for each level of service. Page 2 shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
+        "text": [ "The Trip Counts report provides a summary of monthly trips listed by level of service. The report also lists claim details for each level of service." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -93,7 +93,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, you can throw the top of the Trip Counts report into a Pivot Chart to see if you are trending and how many types of trips you are doing." ],
+        "text": [ "Yes, you can throw the data from the Trip Counts report into a Pivot Chart to see if you are trending and how many types of trips you are doing." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -118,7 +118,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Counts report includes the following information::\n* Page 1: Shows the counts per charge category per month\n* Page 2: Shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances" ],
+        "text": [ "The Trip Counts report includes the following details:\n* Level of service\n* Date of service\n* Claim number\n* Claim status\n* Charges\n* Balances" ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -143,9 +143,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "It is recommended to use the Trip Counts report daily to help identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year." ],
+        "text": [ "The Trip Counts report is a valuable tool for tracking your monthly trips and identifying trends. It is recommended to use the report daily to stay on top of your billing and ensure that all claims are being processed correctly." ],
         "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
+        "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -168,7 +168,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Counts report can help identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year. It can also help you track your charges." ],
+        "text": [ "The Trip Counts report can help you identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -182,7 +182,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What insights can I gain from the Trip Counts report regarding total trips?"
+          "text": "What can I gain from the Trip Counts report regarding total trips?"
         },
         "languageCode": "en"
       }
@@ -193,9 +193,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Counts report can help you gain insights into total trips by showing a summary of monthly trips listed by level of service. It also lists claim details for each level of service." ],
+        "text": [ "The Trip Counts report can help you identify your total trips by week/month/quarter/year. This information can be used to track your progress over time and identify areas where you can improve your efficiency." ],
         "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
+        "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -218,9 +218,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Counts report can help you identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year. It can also help you track your charges." ],
+        "text": [ "The Trip Counts report can help you identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year. This information can be used to track your progress over time and identify areas where you can improve your efficiency." ],
         "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
+        "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -243,7 +243,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Counts by Charge Category report displays the following information:\n\n* Page 1: Shows the counts per charge category per month\n* Page 2: Shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances" ],
+        "text": [ "The Trip Counts by Charge Category report displays the following information: Page 1: Shows the counts per charge category per month. Page 2: Shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -257,7 +257,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How do I access the Trip Counts by Charge Category report?"
+          "text": "What does the Activity Summary by Primary Payer report provide?"
         },
         "languageCode": "en"
       }
@@ -268,7 +268,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To run the report, you can follow these steps:\n\n1. On the navigation bar, hover over Analytics and click Reports\n2. Scroll down the list and click Trip Counts by Charge Category" ],
+        "text": [ "The Activity Summary by Primary Payer report provides information about charges, allowances, payments, adjustments, write-offs, expected CO-45, and refunds by payer. To run the report, you can click on the Reports tab and then scroll down to click on Activity Summary by Primary Payer." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -282,7 +282,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What details are included on page one of the report?"
+          "text": "What details are included on page one of the reports?"
         },
         "languageCode": "en"
       }
@@ -293,7 +293,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Page one of the report shows the following information:\n\n* The counts per charge category per month" ],
+        "text": [ "Page one of the Payments and Revenue reports shows the following information: Average payment, projected revenue, claim count, and claim charge amount. Page one of the All Payment Details report shows the following information: Accounting period, level of service, claim number, policy, date of service, posted by and posted date, claim charge amount, profit center, claim payment amount, transaction number, deposit date, transaction total, HCPCS code, quantity, and payment amount." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -318,7 +318,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, the Trip Counts by Charge Category report can help in tracking charges." ],
+        "text": [ "Yes, the Trip Counts by Charge Category report can help in tracking charges. Page 1 shows the counts per charge category per month. Page 2 shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -332,7 +332,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What insights can I gather from page two of the Trip Counts by Charge Category report?"
+          "text": "What insight can I gather from page two of the Trip Counts by Charge Category report?"
         },
         "languageCode": "en"
       }
@@ -343,7 +343,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Page two of the report shows the following information:\n\n* The total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
+        "text": [ "Page 2 of the Trip Counts by Charge Category report shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -393,7 +393,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To run the report, you need to select a start and end date. You can also pick how far back you want the report to start and the date you want it to end." ],
+        "text": [ "To run the report, you need to select the start and end date." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -418,7 +418,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Counts by Charge Category report can be used daily." ],
+        "text": [ "The report can be used daily." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -443,7 +443,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Counts by Charge Category report can be used to track your charges. Page 1 shows the counts per charge category per month. Page 2 shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
+        "text": [ "The report can be used to track your charges. Page 1 shows the counts per charge category per month. Page 2 shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -468,7 +468,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Counts by Charge Category report can be used to help identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year." ],
+        "text": [ "The report can be used to help identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -493,7 +493,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Facility Trip Counts report lists all facilities for which you have had trips from or to in the time frame you selected." ],
+        "text": [ "The Facility Trip Counts report lists all facilities for which you have had trips from or to in the time frame you selected. It also shows the total trips by week/month/quarter/year." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -518,7 +518,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To run the report: 1. On the navigation bar, hover over Analytics and click Reports. 2. Scroll down the list and click Facility Trip Counts. 3. Start and End Date: Pick how far back you want the report to start and the date you want it to end. 4. Click View Report." ],
+        "text": [ "To run the report, you need to go to the navigation bar, hover over Analytics and click Reports. Then, you need to scroll down the list and click Facility Trip Counts. Finally, you need to pick how far back you want the report to start and the date you want it to end." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -532,7 +532,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How does the Facility Trip Counts report help in facility management?"
+          "text": " How does the Facility Trip Counts report help in facility management?"
         },
         "languageCode": "en"
       }
@@ -543,7 +543,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Facility Trip report can be used to identify which facilities you pick-up from and drop-off to the most." ],
+        "text": [ "The Facility Trip report can be used to identify which facilities you pick-up from and drop-off to the most. It can also be used to reconcile trips imported into ZOLL Billing." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -557,7 +557,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What insights can I gain from the Facility Trip Counts report?"
+          "text": "What can I gain from the Facility Trip Counts report?"
         },
         "languageCode": "en"
       }
@@ -568,7 +568,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Facility Trip Counts report can help you identify which facilities you pick-up from and drop-off to the most." ],
+        "text": [ "The Facility Trip Counts report can help you identify which facilities you pick-up from and drop-off to the most. It can also help you reconcile trips imported into ZOLL Billing." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -593,7 +593,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Facility Trip Counts report can help you identify which facilities you pick-up from and drop-off to the most. This information can help you improve operational efficiency by identifying which facilities you need to focus on." ],
+        "text": [ "The Facility Trip Counts report can help you identify which facilities you pick-up from and drop-off to the most. This information can help you improve operational efficiency by identifying which facilities you use the most." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -643,7 +643,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Facility Trip Counts report is recommended to be used monthly." ],
+        "text": [ "The Facility Trip Counts report is recommended to be used monthly to identify which facilities you pick-up from and drop-off to the most." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -668,9 +668,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Facility Trip Counts report can help you identify which facilities you pick-up from and drop-off to the most. This information can help you improve operational efficiency by identifying which facilities you need to focus on." ],
+        "text": [ "The Facility Trip Counts report can help you identify which facilities you pick-up from and drop-off to the most. This information can help you make decisions about facility usage, such as which facilities to use more or less frequently." ],
         "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
+        "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -693,7 +693,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Facility Trip Counts report can help you identify which facilities you pick-up from and drop-off to the most. This information can help you improve operational efficiency by identifying which facilities you need to focus on." ],
+        "text": [ "The Facility Trip Counts report can help you identify which facilities you pick-up from and drop-off to the most. This information can help you make decisions about facility usage, such as which facilities to use more or less frequently." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -718,7 +718,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Reconciliation report is used to reconcile claims in Billing against trips in your patient care system to ensure that all trips have, or will, be billed. This report shows the following information: • How the claim was created - manually or imported • The PRID number • Run or incident number • How the claim was imported and from where • The claim number • Service date • Claim status • Patient first and last name • The destination facility name." ],
+        "text": [ "The Trip Reconciliation report shows cases that were manually created and imported within a specific time period. It is recommended to use the Trip Reconciliation report every week to reconcile claims in Billing against trips in your patient care system to ensure that all trips have, or will, be billed." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -743,7 +743,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To access the Trip Reconciliation report, you need to run this report in ZOLL Billing and then run a equivalent report in your patient care system using the same time period. You can compare the two to verify that all exported PCRs are being addressed within ZOLL Billing." ],
+        "text": [ "To run the Trip Reconciliation report, you can follow these steps: 1. Run this report in ZOLL Billing and then run a equivalent report in your patient care system using the same time period. 2. Compare the two to verify that all exported PCRs are being addressed within ZOLL Billing." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -768,7 +768,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Reconciliation report shows the following information: • How the claim was created - manually or imported • The PRID number • Run or incident number • How the claim was imported and from where • The claim number • Service date • Claim status • Patient first and last name • The destination facility name." ],
+        "text": [ "The Trip Reconciliation report displays the following information: How the claim was created - manually or imported The PRID number Run or incident number How the claim was imported and from where The claim number Service date Claim status Patient first and last name The destination facility name" ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -793,7 +793,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Reconciliation report shows cases that were manually created and imported within a specific time period. Recommended use Use the Trip Reconciliation report every week to reconcile claims in Billing against trips in your patient care system to ensure that all trips have, or will, be billed." ],
+        "text": [ "The Trip Reconciliation report compares the exported PCRs in ZOLL Billing to the equivalent report in your patient care system. This helps to verify that all exported PCRs are being addressed within ZOLL Billing." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -818,7 +818,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, the Trip Reconciliation report shows the following information: • How the claim was created - manually or imported • The PRID number • Run or incident number • How the claim was imported and from where • The claim number • Service date • Claim status • Patient first and last name • The destination facility name." ],
+        "text": [ "Yes, the Trip Reconciliation report can track the origin of claims." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -843,7 +843,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Reconciliation report shows the following information: • How the claim was created - manually or imported • The PRID number • Run or incident number • How the claim was imported and from where • The claim number • Service date • Claim status • Patient first and last name • The destination facility name." ],
+        "text": [ "The Trip Reconciliation report can track the origin of claims. It also compares the exported PCRs in ZOLL Billing to the equivalent report in your patient care system." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -868,7 +868,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Trip Reconciliation report is used to reconcile trips imported into ZOLL Billing. It can be used to ensure that all trips have, or will, be billed." ],
+        "text": [ "The Trip Reconciliation report can help ensure data accuracy by verifying that all exported PCRs are being addressed within ZOLL Billing." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -918,7 +918,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Use the Trip Reconciliation report every week to reconcile claims in Billing against trips in your patient care system." ],
+        "text": [ "The Trip Reconciliation report should be used every week to reconcile claims in Billing against trips in your patient care system. This will ensure that all trips have, or will, be billed." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -943,7 +943,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The report shows the following information: How the claim was created, PRID number, Run or incident number, How the claim was imported and from where, The claim number, Service date, Claim status, Patient first and last name, The destination facility name." ],
+        "text": [ "The Trip Reconciliation report shows the following information: How the claim was created - manually or imported The PRID number Run or incident number How the claim was imported and from where The claim number Service date Claim status Patient first and last name The destination facility name" ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -968,7 +968,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The top of the Trip Counts report shows a summary of monthly trips listed by level of service. Under the summary, the report lists claim details for each level of service. Page 2 shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
+        "text": [ "The top of the Trip Counts report shows a summary of monthly trips listed by level of service. Under the summary, the report lists claim details for each level of service. You can throw this into a Pivot Chart to see if you are trending and how many types of trips you are doing." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -993,7 +993,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To run the report: 1. On the navigation bar, hover over Analytics and click Reports. 2. Scroll down the list and click Trip Counts. 3. Start and End Date: Pick how far back you want the report to start and the date you want it to end. 4. Click View Report." ],
+        "text": [ "To run the report, you need to: 1. On the navigation bar, hover over Analytics and click Reports. 2. Scroll down the list and click Facility Trip Counts. 3. Start and End Date: Pick how far back you want the report to start and the date you want it to end. 4. Click View Report." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -1018,7 +1018,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The purpose of the Trip Counts report is to help identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year." ],
+        "text": [ "The Trip Counts report can be used to help identify your projected revenue, trends by LOS or month, and total trips by week/month/quarter/year." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -1043,7 +1043,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Trip Counts by Charge Category is a report that can be used to track your charges. Page 1 shows the counts per charge category per month. Page 2 shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
+        "text": [ "Trip Counts by Charge Category is a report that shows the counts per charge category per month. Page 1 shows the counts per charge category per month. Page 2 shows the total charges, including mileage, date of service, claim number, claim status, charges, and balances." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -1068,7 +1068,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To run the report: 1. On the navigation bar, hover over Analytics and click Reports. 2. Scroll down the list and click Trip Counts by Charge Category. 3. Start and End Date: Pick how far back you want the report to start and the date you want it to end. 4. Click View Report." ],
+        "text": [ "To run the report, you need to: 1. On the navigation bar, hover over Analytics and click Reports. 2. Scroll down the list and click Trip Counts by Charge Category. 3. Start and End Date: Pick how far back you want the report to start and the date you want it to end. 4. Click View Report." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -1093,7 +1093,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Facility Trip Counts lists all facilities for which you have had trips from or to in the time frame you selected. This report can be used to identify which facilities you pick-up from and drop-off to the most." ],
+        "text": [ "Facility Trip Counts lists all facilities for which you have had trips from or to in the time frame you selected." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -1107,7 +1107,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How can  I run the report in Facility Trip Counts?"
+          "text": "How can I run the report in Facility Trip Counts?"
         },
         "languageCode": "en"
       }
@@ -1118,7 +1118,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To run the report: 1. On the navigation bar, hover over Analytics and click Reports. 2. Scroll down the list and click Facility Trip Counts. 3. Start and End Date: Pick how far back you want the report to start and the date you want it to end. 4. Click View Report." ],
+        "text": [ "To run the report, you need to: 1. On the navigation bar, hover over Analytics and click Reports. 2. Scroll down the list and click Facility Trip Counts. 3. Start and End Date: Pick how far back you want the report to start and the date you want it to end. 4. Click View Report." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -1143,7 +1143,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Facility Trip Counts can be used to identify which facilities you pick-up from and drop-off to the most." ],
+        "text": [ "Use the Facility Trip report monthly to identify which facilities you pick-up from and drop-off to the most." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -1157,7 +1157,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "What can I know from Trip Reconciliation?"
+          "text": " What can I know from Trip Reconciliation?"
         },
         "languageCode": "en"
       }
@@ -1168,7 +1168,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Trip Reconciliation shows cases that were manually created and imported within a specific time period. Recommended use: Use the Trip Reconciliation report every week to reconcile claims in Billing against trips in your patient care system to ensure that all trips have, or will, be billed." ],
+        "text": [ "Trip Reconciliation shows cases that were manually created and imported within a specific time period. Recommended use Use the Trip Reconciliation report every week to reconcile claims in Billing against trips in your patient care system to ensure that all trips have, or will, be billed." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -1204,8 +1204,8 @@
     }
   } ],
   "creationTime": {
-    "seconds": 1712722497,
-    "nanos": 725493000
+    "seconds": 1716974537,
+    "nanos": 442858000
   },
   "testConfig": {
     "flow": "Default Start Flow",

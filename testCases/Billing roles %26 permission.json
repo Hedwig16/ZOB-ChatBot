@@ -1,6 +1,6 @@
 {
   "name": "803a154c-211d-4b7a-b150-578b5484bf4c",
-  "tags": [ "#Billing_roles_\u0026_permissions" ],
+  "tags": [ "#Billing_roles_\u0026_permissions", "#company_configurations" ],
   "displayName": "Billing roles \u0026 permission",
   "testCaseConversationTurns": [ {
     "userInput": {

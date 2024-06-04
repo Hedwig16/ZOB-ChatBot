@@ -1,5 +1,5 @@
 {
-  "name": "f395f9ee-dbc6-456d-a76d-d678a66c8e06",
+  "name": "593e5518-e646-4289-91ee-5770bbbad40a",
   "tags": [ "#Waystar_Submission" ],
   "displayName": "Waystar Submission",
   "testCaseConversationTurns": [ {
@@ -18,7 +18,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The Waystar Submission page can be accessed by Customer Admins only." ],
+        "text": [ "The Waystar Submission page is only accessible to Customer Admins." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -57,7 +57,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Describe the process of sending claims to the clearinghouse using Waystar Submission."
+          "text": "Describe the process of sending claims to the clearinghouse using Waystar Submission"
         },
         "languageCode": "en"
       }
@@ -68,7 +68,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "1. Hover over Claims on the navigation bar and click Waystar Submission.\n2. Click \"Submit claims\"." ],
+        "text": [ "To start, hover over Claims on the navigation bar and click Waystar Submission. The table shows all the claims in the system, not just those scheduled for delivery. Click \"Submit claims\". If you need to submit the claim to the clearinghouse before the scheduled time, click \"Submit now\" on the Claim page." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -93,9 +93,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The nightly scheduled delivery is the default method for sending claims to the clearinghouse. The claims are sent at 11:59 PM PST every night. Manual submission allows you to send claims to the clearinghouse at any time." ],
+        "text": [ "When ZOLL Billing sends claims to the clearinghouse during its nightly submission, it gathers all the claims that are ready to go and puts them in a group or batch." ],
         "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
+        "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -118,7 +118,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Hover over Claims on the navigation bar and click Waystar Submission." ],
+        "text": [ "To start, hover over Claims on the navigation bar and click Waystar Submission." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -143,7 +143,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, the Waystar Submission page allows you to send all queued claims to the clearinghouse at the push of a button." ],
+        "text": [ "Yes, Waystar Submission allows you to send all queued claims to the clearinghouse at the push of a button instead of waiting for the nightly scheduled delivery." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -168,7 +168,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The table on the Waystar Submission page shows all the claims in the system, not just those scheduled for delivery." ],
+        "text": [ "The table shows all the claims in the system, not just those scheduled for delivery. You can click \"Submit claims\" to send all queued claims to the clearinghouse." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -193,9 +193,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The table on the Waystar Submission page shows the following information for each claim:\n\n* Claim ID\n* Claim status\n* Claim type\n* Patient name\n* Patient ID\n* Claim amount\n* Date of service\n* Provider name\n* Provider ID\n* Clearinghouse ID\n* Clearinghouse status" ],
+        "text": [ "The table shows all the claims in the system, not just those scheduled for delivery. You can click \"Submit claims\" to send all queued claims to the clearinghouse." ],
         "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
+        "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -207,7 +207,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How does manual submission benefit users?"
+          "text": "What are the benefits of manual submission ?"
         },
         "languageCode": "en"
       }
@@ -218,9 +218,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Manual submission allows you to send claims to the clearinghouse at any time. This can be beneficial if you need to send claims urgently or if you have a large number of claims to submit." ],
+        "text": [ "The benefits of manual submission depend on the primary or secondary payer. You can go to your clearinghouse to find out." ],
         "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
+        "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -243,7 +243,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Manual submission allows you to send claims to the clearinghouse at any time. This can be beneficial if you need to send claims urgently or if you have a large number of claims to submit." ],
+        "text": [ "The benefits of manual submission depend on the primary or secondary payer. You can go to your clearinghouse to find out." ],
         "containAiGeneratedContent": true,
         "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
@@ -254,8 +254,8 @@
     }
   } ],
   "creationTime": {
-    "seconds": 1712116000,
-    "nanos": 225757000
+    "seconds": 1716976465,
+    "nanos": 574094000
   },
   "testConfig": {
     "flow": "Default Start Flow",

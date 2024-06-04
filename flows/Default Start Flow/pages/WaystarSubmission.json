@@ -4,6 +4,28 @@
   "form": {
   
   },
+  "transitionRoutes": [ {
+    "intent": "GoBack.Page",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "9a475f40-9272-43c2-b11c-06d219b8d7b8"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "This page contains information only about Waystar submission. For more information go back to the dashboard or the relevant page to get required information.", "This page does not contain information about this. Please \"Go Back\" to the dashboard page or the relevant page for required information." ]
+        },
+        "languageCode": "en"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "d7559fed-4afc-48e3-9d28-841c137571b9"
+  } ],
   "knowledgeConnectorSettings": {
     "enabled": true,
     "triggerFulfillment": {

@@ -1,0 +1,340 @@
+{
+  "name": "737d15d9-d2a9-4810-89ee-baa790d16ed4",
+  "tags": [ "#HoldForDeductible", "#Launch" ],
+  "displayName": "HoldForDeductibleLaunch",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to Clear a claim from the Deductible Monitoring queue?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To clear a claim from the Deductible Monitoring queue, click the box in the \"Clear queue\" column for the claim number." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "launch me to hold fo deductible page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.HoldForDeductible"
+      },
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: Account/HoldForDeductible" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I enable or disable Automated Deductible Monitoring?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To enable or disable Automated Deductible Monitoring, click Settings on the navigation bar and then the Configuration tab. Scroll down to the Deductible Monitoring section. Check the box to turn the feature on for your company and then click Save. To disable the feature, uncheck the box and then click Save." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should I do if I want to hold a claim for a specific number of days before it is released?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To hold a claim for a specific number of days before it is released, you can manually change the status of the claim to \"Suspended - Hold for Deductible\". The claim will display on the Hold for Deductible page. At the end of the number of configured days, the claim will be released from queue." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where do I enter the dollar amount needed before a claim is released from the deductible hold?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To configure Automated Deductible Monitoring, click Settings on the navigation bar and then the Configuration tab. Scroll down to the Deductible Monitoring section. Enter the number of days you want the claims to be held in queue. Enter the dollar amount the deductible needs to reach before the system releases the claim." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I set the annual deductible amount that triggers claims to be held?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To set the annual deductible amount that triggers claims to be held, you can enter the value in the Monitor claims for annual deductible amounts greater than field. For example, to hold claims with an annual deductible of $250 or greater, enter 250 in this field." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What happens if a patient's deductible is not met when I try to submit a claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If the patient's deductible is not met, the claim is suspended and the claim information is sent to AR Boost where the patient will be put in the Deductible Monitoring queue." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I manually change a claim's status to \"Suspended - Hold for Deductible\"?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To manually change a claim's status to \"Suspended - Hold for Deductible\", you can click the edit icon next to the claim's status and select \"Suspended - Hold for Deductible\". The claim will display on the Hold for Deductible page. At the end of the number of configured days, the claim will be released from queue. The status of the claim will change to \"Queue for submission\" and the claim will be sent to the clearinghouse during the nightly submission." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What steps should I take to check the eligibility of a patient’s insurance on an existing claim?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To check the eligibility of a patient's insurance on an existing claim, you can go to the Claim page and click the COB tab. On the COB tab, click the edit icon and then click the Find Insurance button." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Where can I find a list of claims being held for deductible?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can find a list of claims being held for deductible by hovering over Claims on the Navigation Bar and then clicking Hold for Deductible. This page displays a list of claims that are being held for deductible. The information includes the automated deductible monitoring started date, the number of days remaining on hold, queued claim (yes or no), and queued reason." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I clear a claim from the Deductible Monitoring queue after the deductible has been met?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To remove a claim from the Deductible Monitoring queue, you can click on Claims in the navigation bar and then click Hold for Deductible. Look for the claim number. On the line for the claim number, click the box in the \"Clear queue\" column." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What information is displayed on the Claim page if a claim is in \"Suspended - Hold for Deductible\" status?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If the status is \"Suspended - Hold for deductible\", a message will display on the Claim page. The message shows the deductible information and the met days threshold (the day the claim will be released from hold)." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How to remove entries on this page?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "HoldForDeductible",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "To remove entries on the Hold for Deductible page, you can click the \"Clear queue\" button." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1717062994,
+    "nanos": 734719000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

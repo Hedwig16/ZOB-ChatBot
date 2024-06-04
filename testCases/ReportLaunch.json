@@ -1,0 +1,440 @@
+{
+  "name": "280f2720-ea05-4dee-8a44-12090c8778ae",
+  "tags": [ "#Report", "#Launch" ],
+  "displayName": "ReportLaunch",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what are reports"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Reports are a way to view information about transactions, payments, and claims. For example, the Projected Revenue report calculates the revenue of closed claims to determine projected revenue across open claims. The Trip Reconciliation report reconciles claims in Billing against trips in your patient care system to ensure that all trips have, or will, be billed." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "launch me to reports page"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Launch.Report"
+      },
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Link: Report/Index" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How do I analyze productivity trends in the Pre-Biller and Biller report for consistency?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "It is best to view the productivity trended over a period of time. If there is any inconsistency, evaluate the reason and determine a plan of action. You can also use the productivity in conjunction with the average daily trip volumes to determine if their daily output meets or exceeds the average daily trip volume." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What should I do if there's inconsistency in productivity trends?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If there is any inconsistency, evaluate the reason and determine a plan of action." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I determine if my daily output meets or exceeds the average daily trip volume?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You can use the productivity in conjunction with the average daily trip volumes to determine if your daily output meets or exceeds the average daily trip volume." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "When should I consider supplementing my existing staff with additional support or overtime?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If the staff is meeting their productivity guidelines and volume continues to increase, additional effort may be needed." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What are the benefits of establishing benchmarks for productivity in the billing department?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "There are numerous benefits to establishing benchmarks for both the pre-billing and coding staff's productivity such as: Consistent billing equals consistent cash flow, Efficient staffing, Daily and/or weekly feedback provided to the staff, Productivity is typically higher when consistently measured." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What factors should I consider when determining productivity benchmarks for different roles like Pre-Biller, Coder, and Biller?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "When determining productivity benchmarks for different roles, you should consider the quality and accuracy of the PCR, the tools available to the staff, and how often the billing department receives face sheets from the facility." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I analyze data using the Billing Lag report?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Billing Lag report measures the billing lag, trended over time. Billing Lag is the number of unbilled claims divided by average transports per workday. This measurement takes into consideration the department’s effectiveness in reconciling trips, tracking and resolving problem trips, staff productivity, and process efficiency." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What actions should I take if the billing lag exceeds one to two days?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If the Billing Lag report displays a billing lag that is greater than one to two days, determine the reason. Do you have trips that are not billed due to staffing or productivity? Is there a lack of reconciliation processes leaving a large amount of unaccounted for trips? Is there a large amount of missing information that holds up the billing for several days? Is there a logistical reason causing a three to four day delay in getting a patient care report?" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How does the Billing Lag report measure the billing lag?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Billing Lag report measures the billing lag, trended over time. Billing Lag is the number of unbilled claims divided by average transports per workday. This measurement takes into consideration the department’s effectiveness in reconciling trips, tracking and resolving problem trips, staff productivity, and process efficiency." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What is the importance of keeping the billing lag down to one to two days?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Keeping the lag down to one to two days allows the billing office to quickly determine what may be missing and for operations to quickly respond. If you find a trip is missing a run report eight days after the transport, the likelihood of getting or recreating a report is less viable." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I use the Claim Volume and Staffing report to review claim volumes?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Claim Volume and Staffing report provides an objective approach in identifying the amount of billing staff required. Measuring ongoing claim volume provides a trigger to alert you that you need to modify staffing. Additionally, reviewing the volumes by the “type” of call; i.e. wheelchair, emergency, etc., can determine the level of effort needed in the billing department. The results of this report should be used as a guideline." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Why is it important to forecast future growth when reviewing claim volumes?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "If you forecast future growth, use the staffing recommendations to staff accordingly. Implementing productivity guidelines within the department will aide in determining the staffing for each function; pre-billing, billing, follow-up, etc." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I identify possible billing problem trends using the Denial Rate report?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Reviewing claim denial specifics over a set period of time can help identify habitual problems. Once identified, long-term strategies defining ways to avoid these problems can be implemented." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "What strategies can I implement to reduce denials based on denial rate trends?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "For example, you can avoid the Medicare denial of “Name and ID do not match” by placing insurance verification guidelines in the pre-billing department and holding staff accountable to checking the patient’s information against the payer." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "How can I track the productivity of follow-up specialists using the Notes Productivity report?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Report",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The number of notes can help track the productivity of your follow-up specialists. The report displays the names of the users by their log in IDs and workdays by the range you select." ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1717065136,
+    "nanos": 416770000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

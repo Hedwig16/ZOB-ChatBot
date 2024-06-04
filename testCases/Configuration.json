@@ -1,5 +1,5 @@
 {
-  "name": "f1430282-a0bc-42ee-8562-f743f5060f9f",
+  "name": "341a4179-0fce-4814-ad48-ebae9be26180",
   "tags": [ "#Configuration" ],
   "displayName": "Configuration",
   "testCaseConversationTurns": [ {
@@ -18,7 +18,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The billing process section defines the clearinghouse you use by their identifier and HMAC. Here you also select the following options: Run patient tasks: This setting controls when patient invoices are sent. Process claim status rules: These are the status change rules such as submitted to follow-up after 30 days, etc. Submit claims to the clearinghouse: Enable this setting to allow ZOLL Billing to send completed claims to the clearinghouse. Process clearinghouse remittances: Enable this setting to allow ZOLL Billing to." ],
+        "text": [ "The billing process section defines the clearinghouse you use by their identifier and HMAC. Here you also select the following options: Run patient tasks, Process claim status rules, Submit claims to the clearinghouse, Process clearinghouse remittances." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -43,7 +43,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "If it is not checked, the claims will sit in queued for submission and an invoice will not be created for the patient." ],
+        "text": [ "The Run patient tasks setting controls when patient invoices are sent. If it is not checked, the claims will sit in queued for submission and an invoice will not be created for the patient." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -93,7 +93,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To enable ZOLL Billing to submit claims to the clearinghouse, you need to enable the \"Submit claims to the clearinghouse\" setting in the billing process section." ],
+        "text": [ "To enable ZOLL Billing to submit claims to the clearinghouse, you need to enable the Submit claims to the clearinghouse setting." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -118,7 +118,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Enabling the \"Process clearinghouse remittances\" setting allows ZOLL Billing to Account Letter casing of patient names and addresses." ],
+        "text": [ "The Process clearinghouse remittances setting allows ZOLL Billing to Account Letter casing of patient names and addresses." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -143,7 +143,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To change the letter casing of patient names and addresses, you can use the following steps: 1. On the navigation bar, click Settings \u003e Account. 2. The system defaults to \"Leave patient names and address unchanged\"." ],
+        "text": [ "To change the letter casing of patient names and addresses, you can enable the UPPERCASE new patient names and addresses setting. This will automatically make all new patient names and addresses uppercase, including those that are manually created or imported. You will also be given a one-time option to change all existing names and addresses to uppercase." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -168,7 +168,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The only level of services that you mark as favorites display in the selection boxes on the Level of service \u0026 diagnosis tab when you are working incomplete claims. You can still select a non-favorite level of service by clicking the Show all box to expand the list." ],
+        "text": [ "The following options are available for configuring level of service favorites: Only the level of services that you mark as favorites display in the selection boxes on the Level of service \u0026 diagnosis tab when you are working incomplete claims. You can still select a non-favorite level of service by clicking the Sow all box to expand the list." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -193,9 +193,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To set up the reporting start date in ZOLL Billing Insights, you can use the following steps:\n1. On the navigation bar, click Settings \u003e Reporting.\n2. In the Reporting start date field, enter the date that you want to use as the start date for your reports.\n3. Click Save.\nThe reporting start date will be used for all reports that you generate in ZOLL Billing Insights." ],
+        "text": [ "The reporting start date is used by Insights to determine the date certain reports use when calculating your data. To set up the reporting start date, you can follow these steps: 1. Go to the Configuration page. 2. Click the Reporting Start Date field and select the accounting period date." ],
         "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
+        "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -218,7 +218,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To enable and configure the integration with ZOLL Dispatch, you can use the following steps:\n1. In the \"Enable integration with ZOLL Dispatch\" box, check the box.\n2. To select call types to import, in the \"Do not import\" box, click a call type to highlight.\n3. Use the center arrows to move the call type from the \"Do not import\" box to the \"Import\" box.\n4. Click Save." ],
+        "text": [ "To enable and configure the integration with ZOLL Dispatch, you can follow these steps: 1. Go to the Configuration page. 2. Click the Enable integration with ZOLL Dispatch checkbox. 3. Click the Save button. Now, ZOLL Billing will only import files from Dispatch with the call types you specified in the Import box." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -243,7 +243,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To select vehicles to import, you can use the following steps: 1. In the \"Do not import\" box, click a vehicle to highlight. 2. Use the center arrows to move the call type from the \"Do not import\" box to the \"Import\" box. 3. Click Save." ],
+        "text": [ "To select vehicles to import: 1. In the 'Do not import' box, click a vehicle to highlight. Both inactive and active vehicles can be selected. 2. Use the center arrows to move the call type from the 'Do not import' box to the 'Import' box. 3. Click Save." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -257,7 +257,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Can you explain the purpose of the patient billing settings in ZOLL Billing, particularly regarding patient statements?"
+          "text": "explain the purpose of the billing settings in ZOLL Billing, particularly regarding patient statements?"
         },
         "languageCode": "en"
       }
@@ -268,7 +268,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The patient billing settings in ZOLL Billing allow you to set the number of days between patient statements and the number of total statements. The schedule tells the system how often to send a patient statement and the maximum statements to send. You can edit this schedule at any time by clicking the edit pencil." ],
+        "text": [ "The billing settings in ZOLL Billing are used to determine how often patient statements are sent and how many statements are sent. The settings are located on the Configuration tab under the Patient billing section." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -293,9 +293,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The \"Invoice a patient by default\" option in ZOLL Billing allows the system to send an invoice whenever the patient is the current payer. When this option is enabled, the system automatically suspends the claim with a status of \"Suspended - Write-off pending\"." ],
+        "text": [ "The Invoice a patient by default option controls whether or not a patient invoice is created when a claim is submitted. If the option is enabled, a patient invoice will be created when the claim is submitted. If the option is disabled, a patient invoice will not be created when the claim is submitted." ],
         "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
+        "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -318,7 +318,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The \"Suspend patient billing by default\" option in ZOLL Billing allows you to suspend the patient billing by default. When you select this option, anytime a claim is created for a patient or anytime a payment is posted and the claim moves into patient billing, the system automatically suspends the claim with a status of \"Suspended - write-off pending\"." ],
+        "text": [ "When you select this option, anytime a claim is created for a patient or anytime a payment is posted and the claim moves into patient billing, the system automatically suspends the claim with a status of 'Suspended - write - off pending'. You can override this setting by clicking the edit icon next to the status on the Claim page and selecting another status." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -343,7 +343,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The patient statement vendor is set up during onboarding and it is recommended that you do not change it unless you consult with ZOLL first. When you select this option, anytime a claim is created for a patient or anytime a payment is posted and the claim moves into patient billing, the system automatically suspends the claim with a status of \"Suspended - write-off pending\"." ],
+        "text": [ "There are several patient statement vendors to choose from . This option will be setup during Onboarding . It is recommended that you do not change it unless you consult with ZOLL first ." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -368,9 +368,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The patient statement page shows the patient's propensity-to-pay, current patient responsibility, running balance, and statement details." ],
+        "text": [ "The following components can be customized on a patient statement in ZOLL Billing:\n\n* Header\n* Footer\n* Patient information\n* Claim information\n* Payment information\n* Balance information\n* Terms and conditions\n* Signature line\n* Logo" ],
         "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
+        "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -393,7 +393,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "ZOLL Billing's Deductible Monitoring feature allows you to oversee deductible holds with features such as automated monitoring, customizable threshold settings, and visibility into the list of held claims. Deductible Monitoring can operate automatically, with users defining parameters while the system handles the process, or manually, where the Biller manually adjusts the claim's status." ],
+        "text": [ "Deductible Monitoring can operate automatically, with users defining parameters while the system handles the process, or manually, where the Biller manually adjusts the claim's status. When a Biller is ready to submit a claim, ZOLL Billing checks the patient's deductible status. If the patient's deductible is met, the claim is submitted to the clearinghouse. If the patient's deductible is not met, the claim is suspended and the claim information is sent to AR Boost where the patient will be put in the Deductible Monitoring queue. AR Boost Deductible Monitoring sends a query to the payer on a regular bases asking for deductible information for the patient." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -407,7 +407,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "Can you explain how to enable and utilize the automated payment plan feature"
+          "text": "explain how to enable and utilize the automated payment plan feature"
         },
         "languageCode": "en"
       }
@@ -418,7 +418,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To enable the automated payment plan feature, you need to hover over Manage on the navigation bar, click Settings, and then click the Configuration tab. Scroll down to the bottom and find \"Automated payment plan\". When this feature is enabled, all accounts with payment plans defined and enabled will be automatically monitored to timely payment. Enter the number of days between the plan payments and then click Save." ],
+        "text": [ "To enable the automated payment plan feature, you need to enable the payment plan for the account. You can do this on the Account page by sliding the payment plan toggle to the right. You can also enable the payment plan feature on the Patient responsibility tab. When you enable the payment plan feature, all accounts with payment plans defined and enabled will be automatically monitored to timely payment. You can enter the number of days between the plan payments and then click Save. You can also remove the patient from the plan by clicking the icon under the \"Review\" column." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -443,7 +443,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To change the schedule, you need to go to the Configuration tab and scroll down to the \"Patient billing\" section. Click on the days field and select a value from the list. Click the statement field and select a value from the list. Click Save." ],
+        "text": [ "To configure the number of days between plan payments in ZOLL Billing, you need to go to the Configuration tab and scroll down to the \"Patient billing\" section. You can then click on the days field and select a value from the list. You can also click the statement field and select a value from the list." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -468,7 +468,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "When the automated payment plan feature is enabled, all accounts with payment plans defined and enabled will be automatically monitored for timely payment." ],
+        "text": [ "When the automated payment plan feature is enabled, all accounts with payment plans defined and enabled will be automatically monitored for timely payment. You can enter the number of days between plan payments and then click Save. Note: Be careful about the number you enter in number of days field." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -493,7 +493,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "You can find more information about the features and settings discussed under the Configuration tab in the ZOLL Billing documentation." ],
+        "text": [ "You can find more detailed information or resources regarding the features and settings discussed under the Configuration tab at." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -518,7 +518,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The billing process section defines the clearinghouse you use by their identifier and HMAC. Here you also select the following options: * Run patient tasks: This setting controls when patient invoices are sent. * Process claim status rules: These are the status change rules such as submitted to follow-up after 30 days, etc. * Submit claims to the clearinghouse: Enable this setting to allow ZOLL Billing to send completed claims to the clearinghouse. * Process clearinghouse remittances: Enable this setting to allow ZOLL Billing to Account Letter casing of patient names and addresses." ],
+        "text": [ "The billing process section defines the clearinghouse you use by their identifier and HMAC. Here you also select the following options: Run patient tasks: This setting controls when patient invoices are sent. Process claim status rules: These are the status change rules such as submitted to follow-up after 30 days, etc. Submit claims to the clearinghouse: Enable this setting to allow ZOLL Billing to send completed claims to the clearinghouse. Process clearinghouse remittances: Enable this setting to allow ZOLL Billing to Account Letter casing of patient names and addresses." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -543,7 +543,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The system defaults to the \"Leave patient names and address unchanged\" setting. If you leave this enabled, you will be able to control what to cap and what to leave as lower case. Enabling \"UPPERCASE new patient names and addresses\" will automatically make all new patient names and address uppercase. This includes all names / address that are manually created or imported." ],
+        "text": [ "The system defaults to the \"Leave patient names and addresses unchanged\" setting. In this state, you control what to cap and what to leave lower case. If you select \"UPPERCASE new patient names and addresses\", all new patient names and addresses will change to uppercase. This is true if they are imported or manually created. You have a one-time option under this selection to change all existing names and addresses to uppercase." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -568,7 +568,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To change a patient name in upper case, you can use the following steps: 1. Hover over Manage on the navigation bar and then click Settings 2. Click the Configuration tab 3. Scroll down to the Account section 4. Enabling \"UPPERCASE new patient names and addresses\" will automatically make all new patient names and address uppercase. This includes all names / address that are manually created or imported. Note: You will be given a one-time option to change all existing names and addresses to uppercase. Be advised that this action cannot be undone." ],
+        "text": [ "To change a patient name in upper case, you can use the following steps: 1. Hover over Manage on the navigation bar and then click Settings . 2. Click the Configuration tab . Scroll down to the Account section . 3. The system defaults to the \" Leave patient names and address unchanged \" setting . If you leave this enabled , you will be able to control what to cap and what to leave as lower case . 4. Enabling \" UPPERCASE new patient names and addresses \" will automatically make all new patient names and address uppercase . This includes all names / address that are manually created or imported . Note : You will be given a one - time option to change all existing names and addresses to uppercase . Be advised that this action cannot be undone ." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -593,7 +593,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "ZOLL will work with you to enable the integration with ZOLL Dispatch. As part of the implementation of this integration, ZOLL will check the \"Enable integration with ZOLL Dispatch\" box." ],
+        "text": [ "To enable the integration check box, you must check the \"Enable integration with ZOLL Dispatch\" option. To select call types to import, you can click a call type to highlight in the \"Do not import\" box." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -618,159 +618,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To enable \"Filter by Call Type\", you can use the following steps: 1. In the \"Do not import\" box, click a call type to highlight. 2. The \"Enable integration with ZOLL Dispatch\" option must be checked to configure this setting." ],
+        "text": [ "To enable \"Filter by Call Type\", you must check the \"Enable integration with ZOLL Dispatch\" option. To select call types to import, you can click a call type to highlight in the \"Do not import\" box." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "How to Enable \"Filter by Vehicle\"?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "To enable \"Filter by Vehicle\", you can use the following steps: 1. In the \"Do not import\" box, click a vehicle to highlight. 2. The \"Enable integration with ZOLL Dispatch\" option must be checked to configure this setting." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "what are the options available in patient statement?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "The patient statement section allows you to customize the patient invoice. You can change the header, footer, and body of the invoice. You can also add your logo and company information." ],
-        "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "What are the patient statement vendors?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "There are several patient statement vendors to choose from. This option will be setup during Onboarding. It is recommended that you do not change it unless you consult with ZOLL first." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "what will be displayed on patient's invoice?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "The following areas display on the patient's invoice: General statement message, Final statement message, Payment options, Payment portal URL, Upload 'Go Green' image, Customer service, Air ambulance, US Department of Transportation statement." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "give information about deductible monitoring."
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "Deductible Monitoring can operate automatically, with users defining parameters while the system handles the process, or manually, where the Biller manually adjusts the claim's status." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "what is automated payment plan?"
-        },
-        "languageCode": "en"
-      }
-    },
-    "virtualAgentOutput": {
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "Automated payment plans allow you to set up a recurring payment for a patient's account. This can be helpful for patients who want to pay their bill in installments. To set up an automated payment plan, you can use the following steps: 1. Go to the patient's account. 2. Click the \"Payments\" tab. 3. Click the \"Create Payment Plan\" button. 4. Enter the amount of the payment plan and the number of payments. 5. Click the \"Create Payment Plan\" button. The patient will then be able to make payments on the plan according to the schedule you set." ],
-        "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -779,8 +629,8 @@
     }
   } ],
   "creationTime": {
-    "seconds": 1712220845,
-    "nanos": 493362000
+    "seconds": 1716971797,
+    "nanos": 966165000
   },
   "testConfig": {
     "flow": "Default Start Flow",

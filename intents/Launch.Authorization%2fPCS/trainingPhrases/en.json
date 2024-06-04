@@ -1,45 +1,14 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Navigate me to",
+      "text": "Launch me to",
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " Authorization/PCS page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch",
-      "auto": true
+      "text": " Authorization "
     }, {
-      "text": " Authorization/PCS",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Authorization/PCS",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Authorization/PCS page",
-      "auto": true
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"
@@ -49,30 +18,10 @@
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " Authorization/PCS",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
+      "text": " Authorization / PCS "
     }, {
-      "text": " Authorization/PCS",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Authorization/PCS page",
-      "auto": true
+      "text": "page",
+      "parameterId": "Page"
     } ],
     "repeatCount": 1,
     "languageCode": "en"

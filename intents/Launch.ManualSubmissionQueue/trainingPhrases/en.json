@@ -1,80 +1,16 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "Navigate me to",
+      "text": "Launch",
       "parameterId": "launch",
       "auto": true
     }, {
-      "text": " Manual Submission queue page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch",
-      "auto": true
+      "text": " Manual Submission Queue "
     }, {
-      "text": " Manual Submission queue",
-      "auto": true
+      "text": "page",
+      "parameterId": "Page"
     } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Navigate to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Manual Submission queue page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Get me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Manual Submission queue page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Manual Submission queue page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Manual submission queue",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "Launch me to",
-      "parameterId": "launch",
-      "auto": true
-    }, {
-      "text": " Manual submission queue page",
-      "auto": true
-    } ],
-    "repeatCount": 1,
+    "repeatCount": 2,
     "languageCode": "en"
   } ]
 }

@@ -4,7 +4,11 @@
   "parameters": [ {
     "id": "launch",
     "entityType": "@Launch"
+  }, {
+    "id": "Page",
+    "entityType": "@Page"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 7
+  "description": "i want it to trigger the intent only when user ask question eg:launch to reports page",
+  "numTrainingPhrases": 2
 }

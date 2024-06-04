@@ -1,10 +1,13 @@
 {
   "name": "30d7d2f7-3d62-4aeb-af21-89fa10dcc785",
-  "displayName": "Launch.ImportClaim",
+  "displayName": "Launch.ImportedClaim",
   "parameters": [ {
     "id": "launch",
     "entityType": "@Launch"
+  }, {
+    "id": "Page",
+    "entityType": "@Page"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 7
+  "numTrainingPhrases": 2
 }

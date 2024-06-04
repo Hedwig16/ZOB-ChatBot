@@ -1,5 +1,5 @@
 {
-  "name": "d00f3208-f24d-4c5f-b40e-ad5c977c8327",
+  "name": "45c9a6f7-6379-40e5-aa5d-b9dca474bbc0",
   "tags": [ "#Itemizing_charges" ],
   "displayName": "Itemizing charges",
   "testCaseConversationTurns": [ {
@@ -18,9 +18,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To itemize supplies in ZOLL Billing, follow these steps:\n\n1. Go to the \"Billing\" tab and click on \"Supplies.\"\n2. In the \"Supplies\" table, click on the \"Add\" button.\n3. In the \"Item\" field, enter the name of the supply.\n4. In the \"Quantity\" field, enter the quantity of the supply.\n5. In the \"Unit Price\" field, enter the unit price of the supply.\n6. In the \"Total\" field, enter the total cost of the supply.\n7. Click on the \"Save\" button.\n\nThe supply will now be added to your billing record." ],
+        "text": [ "To itemize supplies in ZOLL Billing, you can click the Charges tab and check the View field to verify that you are on the right charge category. If you are, click Itemize supplies. A pop-up window will display." ],
         "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
+        "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -43,9 +43,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The following supplies can be itemized in ZOLL Billing:\n\n* ALS and BLS Routine Disposable Supplies (A0382 and A0398)\n* ALS and BLS Defibrillation Supplies (A0384 and A0392)\n* Esophageal Intubation Supplies (A0396)\n* IV Drug Therapy Supplies (A0394)\n\nI hope that helps!" ],
+        "text": [ "The following types of supplies can be itemized in ZOLL Billing:\n\n* Drugs\n* Medical devices\n* Laboratory tests\n* Office supplies\n* Travel expenses" ],
         "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
+        "containGenerativeFallback": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -68,7 +68,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Sure, here are the steps to add an itemized charge for supplies:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges** tab.\n3. Check the **View** field and verify that you are on the right charge category.\n4. If you are then click **Itemize supplies**.\n\nI hope that helps! Let me know if you have any other questions." ],
+        "text": [ "To add an itemized charge for supplies, you can click Settings on the navigation bar and then click the Charges tab. You can then check the View field and verify that you are on the right charge category. If you are, click Itemize supplies. A pop-up window will display." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -93,7 +93,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Payers receive the total cost of the used supplies as a single HCPCS.\n\nIf a payer needs to justify the amount, you can print the **\"Print Charge Details\"** report from the **Claim** page and send it to the payer.\n\nPatient statements will contain the itemized list of supplies used." ],
+        "text": [ "After you create the itemized list, you can add the supplies to your claim. ZOLL Billing will sum the cost of the used supplies and send payers the total as a single HCPCS. If a payer needs to justify the amount, you can print the \"Print Charge Details\" report from the Claim page and send it to the payer." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -143,9 +143,9 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The purpose of adding an unlisted ambulance services charge is to bill for services that are not covered by the standard ambulance charges. This can include services such as:\n\n* Patient transport to and from the hospital\n* Patient transfer between hospitals\n* Patient transport to and from a medical appointment\n* Patient transport to and from a nursing home\n\nTo add an unlisted ambulance services charge, you will need to create a new charge code. The charge code should be unique and should not be used for any other purpose. You will also need to enter a description of the service and the amount of the charge.\n\nOnce you have created the charge code, you can add it to a claim. When you add the charge to the claim, you will need to specify the patient's insurance information. The insurance company will then review the claim and determine if they will cover the charge.\n\nIf the insurance company does not cover the charge, you will be responsible for paying the bill." ],
+        "text": [ "Itemizing is the practice of taking supplies used during transport and billing a patient or payer for each supply used." ],
         "containAiGeneratedContent": true,
-        "containGenerativeFallback": true,
+        "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
       } ],
       "currentFlow": {
@@ -168,7 +168,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Sure, I can help you with that.\n\nTo add an unlisted ambulance services charge, you can follow these steps:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges** tab.\n3. Check the **View** field and verify that you are on the right charge category.\n4. Click **Edit**.\n5. Scroll down to the supply type heading you selected when you created the itemized supply.\n6. You will see your entry there with an empty **Price per unit** field.\n7. Enter the amount in this field.\n8. Scroll down and click **Save**.\n\nI hope this helps! Let me know if you have any other questions." ],
+        "text": [ "Sure, here are the steps on how to add an unlisted ambulance services charge: 1. Click Settings on the navigation bar 2. Click the Charges tab 3. Check the View field and verify that you are on the right charge category 4. Click Itemize supplies." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -193,7 +193,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "When adding a new charge for unlisted ambulance services, you need to provide the following information:\n\n* The charge category\n* The supply type\n* The price per unit\n\nYou can find this information on the **Charges** page.\n\nI hope this helps! Let me know if you have any other questions." ],
+        "text": [ "When adding a new charge for unlisted ambulance services, you need to provide the following information: Supply type, Price per unit, and Units." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -207,7 +207,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "How can I bill an A0999 charge to the patient only in ZOLL Billing?"
+          "text": " How can I bill an A0999 charge to the patient only in ZOLL Billing?"
         },
         "languageCode": "en"
       }
@@ -218,7 +218,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To bill an A0999 charge to the patient only, you can follow these steps:\n\n1. Click the **Charges** tab and find the A0999 charge.\n2. Click the **edit icon** next to that charge.\n3. In the window that opens, click the circle next to **Patient only** and then click **Save**.\n\nNow, the A0999 charge will only appear when you are billing the patient." ],
+        "text": [ "To bill an A0999 charge to the patient only, you can click the Charges tab and find the A0999 charge. Click the edit icon next to that charge. In the window that opens, click the circle next to Patient only and then click Save." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -243,7 +243,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Sure, I can help you with that.\n\nTo bill an A0999 charge to the patient only, you can follow these steps:\n\n1. Click the **Charges** tab and find the A0999 charge.\n2. Click the **edit icon** next to that charge.\n3. In the window that opens, click the circle next to **Patient only** and then click **Save**.\n\nNow, the A0999 charge will only appear when you are billing the patient." ],
+        "text": [ "To bill an A0999 charge to the patient only, you can click the Charges tab and find the A0999 charge. Click the edit icon next to that charge. In the window that opens, click the circle next to Patient only and then click Save. Now, the A0999 charge will only appear when you are billing the patient." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -268,7 +268,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Yes, it is possible to modify an A0999 charge to bill it only to the patient. To do this, you can follow these steps:\n\n1. Click the **Charges** tab and find the A0999 charge.\n2. Click the **edit icon** next to that charge.\n3. In the window that opens, click the circle next to **Patient only** and then click **Save**.\n\nNow, the A0999 charge will only appear when you are billing the patient." ],
+        "text": [ "Yes, you can modify an A0999 charge to bill it only to the patient." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -318,7 +318,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "The \"Price per unit\" field is used to enter the **price per unit** for the itemized charge." ],
+        "text": [ "The price per unit is the amount that will display on any claim with that charge type (HCPCS). The system records the charge amounts you enter, so that price per unit will display from that time forward on any claim with that charge type." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -343,7 +343,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To save changes made to itemized charges in ZOLL Billing, you can follow these steps:\n\n1. Click the **Edit** button at the top right of the page.\n2. Click the **Save** button at the bottom of the page.\n\nI hope that helps! Let me know if you have any other questions." ],
+        "text": [ "To save changes made to itemized charges in ZOLL Billing, you can click the Save button at the bottom of the page." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -368,7 +368,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "To get to the Charges tab, you can click **Settings** on the navigation bar. You can then click the **Charges** tab. You can also click the **Itemize supplies** link at the top of the page." ],
+        "text": [ "To get to the Charges tab, you can click Settings on the navigation bar." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -382,7 +382,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "how to add itemized charge? explain in detail."
+          "text": "how to add itemized charge? explain in detail"
         },
         "languageCode": "en"
       }
@@ -393,7 +393,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Sure, I can help you with that. Here are the steps on how to add an itemized charge:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges** tab.\n3. Check the **View** field and verify that you are on the right charge category.\n4. If you are, then click **Itemize supplies**." ],
+        "text": [ "To add an itemized charge, you can follow these steps: 1. Click Settings on the navigation bar. 2. Click the Charges tab. 3. Click the Itemize supplies link at the top of the page." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -418,7 +418,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Sure, I can help you with that. Itemized supplies are supplies that are **billed to a patient or payer for each supply**. The decision to itemize supplies is something your company decides to do. If your medics track the supplies they use during transport, and you want to bill for each supply, then create your list of supply types and enter their prices. After you create the itemized list, you can add the supplies to your claim. ZOLL Billing will sum the cost of the used supplies and send payers the total as a single HCPCS." ],
+        "text": [ "Itemized supplies are supplies that are billed individually, rather than as a group. The decision to itemize your supplies is something your company decides to do. After you create the itemized list, you can add the supplies to your claim. ZOLL Billing will sum the cost of the used supplies and send payers the total as a single HCPCS. If a payer needs to justify the amount, you can print the \"Print Charge Details\" report from the Claim page and send it to the payer." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -443,12 +443,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Sure, I can help you with that. Here are the steps on how to use itemized supplies:\n\n1. Click **Settings** on the navigation bar.\n2. Click the **Charges** tab.\n3. Click the **View** field to select the charge category.\n4. Click the **Edit** icon.\n5. Find the charge description that you wish to change and click the description field for that charge.\n6. After typing the new name, tab out of the field. If you click **Save** before you tab out of the field, your change will not be recorded." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      }, {
-        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=6bsx0y73ks" ],
+        "text": [ "Itemized supplies are supplies that are billed individually, rather than as a group. The decision to itemize your supplies is something your company decides to do. After you create the itemized list, you can add the supplies to your claim. ZOLL Billing will sum the cost of the used supplies and send payers the total as a single HCPCS. If a payer needs to justify the amount, you can print the \"Print Charge Details\" report from the Claim page and send it to the payer." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -473,7 +468,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Sure, I can help you with that.\n\nTo bill an A0999 charge to the patient only, you can click the **Charges** tab and find the A0999 charge. Click the **edit icon** next to that charge. In the window that opens, click the circle next to **Patient only** and then click **Save**. Now, the A0999 charge will only appear when you are billing the patient." ],
+        "text": [ "To bill an A0999 charge to the patient only, you can follow these steps: 1. Click the Charges tab and find the A0999 charge. 2. Click the edit icon next to that charge. 3. In the window that opens, click the circle next to Patient only and then click Save. Now, the A0999 charge will only appear when you are billing the patient." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -487,7 +482,7 @@
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "billing a patient for itemized charges"
+          "text": "How to billing a patient for itemized charges?"
         },
         "languageCode": "en"
       }
@@ -498,12 +493,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "Sure, I can help you with that. Itemized charges are supplies that are **billed to a patient or payer for each supply**. The decision to itemize supplies is something your company decides to do. If your medics track the supplies they use during transport, and you want to bill for each supply, then create your list of supply types and enter their prices. After you create the itemized list, you can add the supplies to your claim. ZOLL Billing will sum the cost of the used supplies and send payers the total as a single HCPCS." ],
-        "containAiGeneratedContent": true,
-        "containDataStoreContent": true,
-        "containAttemptedDataStoreInteractions": true
-      }, {
-        "text": [ "For more information click this: https://help.zollonline.com/billing/Content/Videos.htm?wchannelid=m8t21u1viq\u0026wmediaid=6bsx0y73ks" ],
+        "text": [ "Itemizing is the practice of taking supplies used during transport and billing a patient or payer for each supply used. In order to do this, the supplies must be associated with a billable HCPCS. You can bill for itemized ALS and BLS Routine Disposable Supplies (A0382 and A0398), ALS and BLS Defibrillation Supplies (A0384 and A0392), Esophageal Intubation Supplies (A0396) and IV Drug Therapy Supplies (A0394)." ],
         "containAiGeneratedContent": true,
         "containDataStoreContent": true,
         "containAttemptedDataStoreInteractions": true
@@ -514,8 +504,8 @@
     }
   } ],
   "creationTime": {
-    "seconds": 1712142246,
-    "nanos": 51997000
+    "seconds": 1716977190,
+    "nanos": 787523000
   },
   "testConfig": {
     "flow": "Default Start Flow",
